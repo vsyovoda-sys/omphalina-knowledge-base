@@ -1,0 +1,282 @@
+# 合成氨故事线 — 基于 encyclopedia/compounds/synthetic_ammonia.md 提取
+# 戏剧性历史节点 + 因果网络 + 评分
+
+compound:
+  id: synthetic_ammonia
+  name_zh: 合成氨 (哈伯法)
+  name_en: Synthetic Ammonia (Haber-Bosch Process)
+  aliases_zh: [合成氨, 哈伯法, 哈伯-博施法]
+  category: 工业化学
+  year_invented: 1909
+  formula: N₂ + 3H₂ → 2NH₃
+  safety_note: "本条目仅讨论历史和社会影响，不涉及合成方法或配方"
+
+  people:
+    - id: fritz_haber
+      name_zh: 弗里茨·哈伯
+      name_en: Fritz Haber
+      role: 合成氨实验室发明者，化学武器之父
+      nationality: 德国（犹太裔）
+      year: 1909
+      nobel_year: 1918
+      irony_note: "喂养了40亿人口，也主导了化学武器——妻子因此自杀，自己因犹太身份被纳粹流放"
+
+    - id: carl_bosch
+      name_zh: 卡尔·博施
+      name_en: Carl Bosch
+      role: 将实验室工艺放大到工业规模的工程师
+      nationality: 德国
+      year: 1913
+      nobel_year: 1931
+      irony_note: "缔造了BASF帝国，却在纳粹时代因反对排犹而失势，酗酒抑郁而终"
+
+    - id: clara_immerwahr
+      name_zh: 克拉拉·伊默瓦尔
+      name_en: Clara Immerwahr
+      role: 哈伯之妻，德国第一位女性化学博士
+      nationality: 德国
+      year: 1915
+      irony_note: "坚决反对丈夫参与化学武器研发，在伊普尔毒气攻击庆功宴当晚用丈夫的军用手枪自杀"
+
+    - id: gerhard_ertl
+      name_zh: 格哈德·埃特尔
+      name_en: Gerhard Ertl
+      role: 解析了哈伯法催化机制的表面化学家
+      nationality: 德国
+      nobel_year: 2007
+      irony_note: "将近一百年后，人类才真正理解这个喂养了全世界的反应在催化剂表面是怎么发生的"
+
+  events:
+    - id: nitrogen_crisis_1900
+      name_zh: 二十世纪初的氮素危机——即将耗尽的智利硝石
+      name_en: Early 20th century nitrogen crisis — dwindling Chilean saltpeter
+      year: 1898
+      end_year: 1910
+      domain: 农业
+      scale: 全球
+      quote: "科学家警告：若不能从空气中固氮，全球粮食供应将在数十年内崩溃"
+      source_ref: "encyclopedia/compounds/synthetic_ammonia.md ## History"
+
+    - id: haber_lab_demo_1909
+      name_zh: 哈伯在实验室以每小时125毫升的速度从空气中制氨
+      name_en: Haber demonstrates lab-scale ammonia synthesis
+      year: 1909
+      domain: 科学
+      scale: 全球
+      location: 德国卡尔斯鲁厄
+      quote: "他们从空气中一滴一滴地'挤'出了氨水——人类第一次驯服了最稳定的三键"
+
+    - id: basf_industrial_1913
+      name_zh: BASF奥堡工厂实现工业化量产
+      name_en: BASF Oppau plant begins industrial-scale production
+      year: 1913
+      domain: 工业
+      scale: 全球
+      location: 德国奥堡
+      quote: "1914年日产20吨氨——从实验室的125毫升到工厂的20吨，博施完成了人类工程史上最壮观的放大"
+
+    - id: wwi_munitions
+      name_zh: 合成氨拯救德国战争机器——无它德国数月内必败
+      name_en: Synthetic ammonia sustains Germany's WWI war effort
+      year: 1914
+      end_year: 1918
+      domain: 军事
+      scale: 全球
+      quote: "历史学家普遍认为，没有哈伯法，被封锁了硝石进口的德国将在几个月内因弹药耗尽而投降"
+      source_ref: "encyclopedia/compounds/synthetic_ammonia.md ## History"
+
+    - id: chemical_weapons_ypres
+      name_zh: 哈伯亲赴前线指挥伊普尔毒气攻击
+      name_en: Haber personally directs chlorine gas attack at Ypres
+      year: 1915
+      domain: 军事
+      scale: 全球
+      location: 比利时伊普尔
+      quote: "这位将来的诺贝尔奖得主亲自站在战壕前，观看6000个氯气钢瓶释放的绿色烟云吞噬协约国士兵"
+
+    - id: clara_suicide
+      name_zh: 克拉拉在毒气攻击庆功宴后举枪自杀
+      name_en: Clara Immerwahr's suicide after Ypres celebration
+      year: 1915
+      domain: 个人
+      scale: 个人
+      location: 德国柏林
+      quote: "她用丈夫的军用手枪在自家花园射杀了自己——被12岁的儿子发现。次日清晨，哈伯照常出发前往东线"
+
+    - id: haber_nobel_1918
+      name_zh: 哈伯获1918年诺贝尔化学奖——引发巨大争议
+      name_en: Haber awarded 1918 Nobel Prize in Chemistry amid outrage
+      year: 1918
+      domain: 科学
+      scale: 全球
+      quote: "协约国科学家联合抗议：一个'化学武器之父'怎么能获得诺贝尔奖？"
+
+    - id: haber_nazi_exile
+      name_zh: 纳粹上台后哈伯因犹太身份被迫流亡
+      name_en: Haber forced into exile by Nazi racial laws
+      year: 1933
+      domain: 政治
+      scale: 个人
+      location: 德国 → 英国 → 瑞士
+      quote: "他为德国发明了养活全国的化肥和赢得战争的弹药，但德国以民族的名义将他驱逐出境"
+
+    - id: zyklon_b_irony
+      name_zh: 哈伯的杀虫剂研究成果被改造为Zyklon B
+      name_en: Haber's pesticide research adapted into Zyklon B
+      year: 1942
+      domain: 军事
+      scale: 全球
+      quote: "哈伯1920年代研发的Zyklon杀虫剂被纳粹改良为Zyklon B——用于毒杀集中营囚犯，包括哈伯自己的亲属"
+
+  consequences:
+    - id: feeds_four_billion
+      description_zh: 合成氨化肥养活了全球约一半人口（~40亿人）
+      description_en: Synthetic ammonia fertilizers feed roughly half the world's population (~4 billion)
+      type: 正面
+      domain: 农业
+      scale: 全球
+      ongoing: true
+      quantifier: "~40亿人"
+
+    - id: nitrogen_pollution_dead_zones
+      description_zh: 过量氮肥流入水体造成全球400+个海洋死区
+      description_en: Excess nitrogen fertilizer creates 400+ marine dead zones worldwide
+      type: 负面
+      domain: 环境
+      scale: 全球
+      ongoing: true
+      quantifier: "400+个死区"
+
+    - id: carbon_emissions_ammonia
+      description_zh: 全球氨生产占全球碳排放约3%、能源消耗1-2%
+      description_en: Ammonia production accounts for ~3% of global carbon emissions
+      type: 负面
+      domain: 环境
+      scale: 全球
+      ongoing: true
+      quantifier: "全球碳排放3%"
+
+    - id: clara_legacy_feminism
+      description_zh: 克拉拉成为反战与女性科学家抗争的象征
+      description_en: Clara Immerwahr became a symbol of anti-war resistance and women in science
+      type: 讽刺
+      domain: 文化
+      scale: 全球
+
+  causal_chains:
+    # 化合物 → 事件
+    - source: synthetic_ammonia
+      target: nitrogen_crisis_1900
+      type: ENABLED
+      drama_score: 0.75
+      irony_level: 0.20
+      description_zh: "全球粮食安全危机催生了固氮研究的紧迫需求"
+      domains: [农业, 科学]
+
+    - source: synthetic_ammonia
+      target: haber_lab_demo_1909
+      type: ENABLED
+      drama_score: 0.85
+      irony_level: 0.30
+      description_zh: "从空气中每小时滴出125毫升氨——人类首次打破了最稳定的化学键之一"
+      domains: [化学, 工业]
+
+    - source: synthetic_ammonia
+      target: basf_industrial_1913
+      type: ENABLED
+      drama_score: 0.80
+      irony_level: 0.25
+      description_zh: "博施将实验室的桌面装置放大十万倍——工程史上最惊人的scale-up之一"
+      domains: [工程, 工业]
+      time_lag_years: 4
+
+    - source: synthetic_ammonia
+      target: wwi_munitions
+      type: ENABLED
+      drama_score: 0.95
+      irony_level: 0.90
+      description_zh: "本为解决饥荒的发明，却成了延长战争数年的军事关键——没有合成氨，一战可能在1915年就结束了"
+      description_en: "Invention meant to end famine instead prolonged WWI by years"
+      domains: [军事, 化学工业]
+      time_lag_years: 5
+
+    - source: fritz_haber
+      target: chemical_weapons_ypres
+      type: ENABLED
+      drama_score: 0.95
+      irony_level: 0.95
+      description_zh: "喂养了亿万人的科学家亲手将科学变成了大规模屠杀工具"
+      domains: [军事, 科学伦理]
+
+    - source: chemical_weapons_ypres
+      target: clara_suicide
+      type: CAUSED
+      drama_score: 0.98
+      irony_level: 0.95
+      description_zh: "妻子无法接受丈夫的科学成就被用于屠杀，在庆功宴当晚选择了死亡——而丈夫次日照常出发"
+      domains: [个人, 伦理]
+
+    - source: synthetic_ammonia
+      target: haber_nobel_1918
+      type: ENABLED
+      drama_score: 0.90
+      irony_level: 0.92
+      description_zh: "'化学武器之父'因'造福人类'获得诺贝尔奖——科学界最具争议的授奖之一"
+      domains: [科学, 伦理]
+      time_lag_years: 9
+
+    - source: haber_nazi_exile
+      target: zyklon_b_irony
+      type: IRONIC_TWIST
+      drama_score: 0.99
+      irony_level: 1.00
+      description_zh: "哈伯自己研发的杀虫剂被改造成毒杀他同胞的工具——几乎无法想象更残酷的讽刺"
+      description_en: "Haber's own pesticide research was adapted to murder his own people"
+      domains: [军事, 种族灭绝, 科学伦理]
+      time_lag_years: 9
+
+    # 事件 → 后果
+    - source: basf_industrial_1913
+      target: feeds_four_billion
+      type: CAUSED
+      drama_score: 0.90
+      irony_level: 0.60
+      description_zh: "工业化合成氨使全球人口从18亿增长到80亿成为可能——人类史上影响最大的化学发明"
+      domains: [农业, 人口]
+
+    - source: feeds_four_billion
+      target: nitrogen_pollution_dead_zones
+      type: IRONIC_TWIST
+      drama_score: 0.85
+      irony_level: 0.85
+      description_zh: "养活半个地球的同时毒杀了海洋——氮肥流入河流，催生了400+个'死区'"
+      domains: [环境, 农业]
+
+    - source: feeds_four_billion
+      target: carbon_emissions_ammonia
+      type: IRONIC_TWIST
+      drama_score: 0.75
+      irony_level: 0.70
+      description_zh: "养活人类的同时加速气候变化——氨生产占全球能耗1-2%"
+      domains: [环境, 能源]
+
+    - source: clara_suicide
+      target: clara_legacy_feminism
+      type: IRONIC_TWIST
+      drama_score: 0.80
+      irony_level: 0.75
+      description_zh: "一位被历史遗忘的女科学家的自杀，一个世纪后成为反战与女权叙事的符号"
+      domains: [文化, 性别]
+
+  cross_connections:
+    - target_compound: ddt
+      relationship_zh: "同属双用途：农业/军事的双面刃"
+      connection_type: 同属双用途
+
+    - target_compound: cfc
+      relationship_zh: "三个争议性诺贝尔奖的讽刺链"
+      connection_type: 诺贝尔讽刺
+
+    - target_compound: aspirin
+      relationship_zh: "同一时代的德国化学工业双子星，一个救人一个也杀人"
+      connection_type: 德国化学工业

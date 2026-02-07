@@ -1,0 +1,209 @@
+# Omphalina 故事线 Schema 定义
+# 本文件定义故事线 YAML 的数据结构规范
+# 所有 storylines/compounds/*.yaml 文件必须符合此 Schema
+
+# ============================================================
+# 节点类型定义
+# ============================================================
+
+node_types:
+
+  Compound:
+    description: "人造化合物实体"
+    required_fields:
+      - id            # string | 唯一标识符，如 "aspirin"
+      - name_zh       # string | 中文名
+      - name_en       # string | 英文名
+      - aliases_zh    # list[string] | 中文别名，用于用户识别
+      - category      # string | 分类，如 "药物", "农药", "材料"
+      - year_invented # int | 发明/发现年份
+    optional_fields:
+      - formula       # string | 化学式
+      - cas_number    # string | CAS 注册号
+      - safety_note   # string | 安全说明（必须强调不提供合成方法）
+
+  Person:
+    description: "与化合物历史相关的关键人物"
+    required_fields:
+      - id            # string | 唯一标识符，如 "fritz_haber"
+      - name_zh       # string | 中文名
+      - name_en       # string | 英文名
+      - role          # string | 角色/身份
+    optional_fields:
+      - birth_year    # int
+      - death_year    # int
+      - nationality   # string
+      - nobel_year    # int | 获诺贝尔奖年份（如适用）
+      - irony_note    # string | 此人身上的讽刺性注释
+
+  Event:
+    description: "与化合物相关的历史事件"
+    required_fields:
+      - id            # string | 唯一标识符
+      - name_zh       # string | 中文事件名
+      - name_en       # string | 英文事件名
+      - year          # int | 事件年份
+      - domain        # string | 领域: 战争/农业/医学/环保/法律/文化/科学/工业
+    optional_fields:
+      - end_year      # int | 事件结束年份（如跨多年）
+      - location      # string | 地点
+      - scale         # string | 规模: 个人/国家/区域/全球
+      - quote         # string | 可引用的名言或名场面描述
+      - source_ref    # string | 出处引注（对应 encyclopedia/ 中的文件和章节）
+
+  Consequence:
+    description: "事件的后果或涟漪效应"
+    required_fields:
+      - id            # string | 唯一标识符
+      - description_zh # string | 中文描述
+      - description_en # string | 英文描述
+      - type          # string | 类型: 正面/负面/双刃/讽刺
+      - domain        # string | 影响领域
+    optional_fields:
+      - scale         # string | 规模
+      - ongoing       # bool | 是否仍在持续
+      - quantifier    # string | 量化描述（如 "影响40亿人"）
+
+
+# ============================================================
+# 边类型定义（因果关系）
+# ============================================================
+
+edge_types:
+
+  INVENTED_BY:
+    description: "化合物由某人发明/发现"
+    source_type: Compound
+    target_type: Person
+    attributes:
+      - year          # int | 发明年份
+      - context       # string | 发明背景
+
+  ENABLED:
+    description: "化合物使某事件成为可能"
+    source_type: Compound
+    target_type: Event
+    attributes:
+      - drama_score   # float 0-1 | 戏剧性评分
+      - irony_level   # float 0-1 | 讽刺性评分
+      - time_lag_years # int | 从化合物发明到事件发生的时间差
+      - domains       # list[string] | 涉及的领域
+      - description_zh # string | 因果关系中文描述
+      - description_en # string | 因果关系英文描述
+
+  CAUSED:
+    description: "事件导致了某后果"
+    source_type: Event
+    target_type: Consequence
+    attributes:
+      - drama_score   # float 0-1
+      - irony_level   # float 0-1
+      - domains       # list[string]
+      - description_zh # string
+
+  IRONIC_TWIST:
+    description: "反讽因果链——后果导致了与初衷相反的新后果"
+    source_type: Consequence
+    target_type: Consequence
+    attributes:
+      - drama_score   # float 0-1
+      - irony_level   # float 0-1
+      - description_zh # string
+
+  DERIVED_FROM:
+    description: "化合物之间的衍生关系"
+    source_type: Compound
+    target_type: Compound
+    attributes:
+      - relationship  # string | 关系描述
+
+  CONTEMPORANEOUS:
+    description: "同时期发生的相关事件"
+    source_type: Event
+    target_type: Event
+    attributes:
+      - relationship  # string | 关系说明
+
+
+# ============================================================
+# 评分体系
+# ============================================================
+
+scoring:
+
+  drama_score:
+    description: "衡量一个因果关系的戏剧性程度 (0.0 - 1.0)"
+    dimensions:
+      - name: scale
+        weight: 0.30
+        description: "影响规模——波及多少人/面积/产业？"
+      - name: surprise
+        weight: 0.25
+        description: "意外性——结果是否出人意料？"
+      - name: cross_domain
+        weight: 0.20
+        description: "跨领域度——影响跨越了几个领域？"
+      - name: time_span
+        weight: 0.15
+        description: "时间跨度——因果链跨越多少年？"
+      - name: quotability
+        weight: 0.10
+        description: "可引用性——是否有著名引语或名场面？"
+
+  irony_level:
+    description: "衡量一个因果关系的讽刺性程度 (0.0 - 1.0)"
+    dimensions:
+      - name: purpose_reversal
+        weight: 0.40
+        description: "目的反转——初衷与结果的反差程度"
+      - name: same_agent
+        weight: 0.30
+        description: "同一主体——同一人/组织同时造成正面和负面结果？"
+      - name: hindsight_irony
+        weight: 0.20
+        description: "事后讽刺——回头看有多讽刺？"
+      - name: narrative_tension
+        weight: 0.10
+        description: "叙事张力——放进故事里能产生多强的效果？"
+
+
+# ============================================================
+# 跨化合物连接
+# ============================================================
+
+cross_connection:
+  description: "描述两个化合物之间的关联关系"
+  required_fields:
+    - source_compound   # string | 源化合物 id
+    - target_compound   # string | 目标化合物 id
+    - relationship_zh   # string | 中文关系描述
+    - relationship_en   # string | 英文关系描述
+    - connection_type   # string | 连接类型（见下）
+  connection_types:
+    - "同属双用途"       # 如合成氨(化肥/炸药)、DDT(农药/军用)
+    - "同一发明者"       # 如含铅汽油和氟利昂（Midgley）
+    - "先追捧后质疑"     # 如味精、DDT
+    - "环保危机系列"     # 如塑料污染、臭氧层空洞
+    - "药物范式对比"     # 如阿司匹林(化学合成) vs 青霉素(生物发现)
+    - "诺贝尔讽刺"       # 如多个获奖发明后来造成灾难
+    - "战争催化"         # 如二战推动了青霉素量产和DDT使用
+
+
+# ============================================================
+# 安全护栏
+# ============================================================
+
+safety:
+  required_in_every_compound:
+    - safety_note: "本条目仅讨论历史和社会影响，不涉及合成方法或配方"
+  
+  forbidden_content:
+    - "合成步骤或反应条件"
+    - "精确配比或浓度数据"
+    - "实验操作流程"
+    - "原料采购渠道"
+  
+  guardrail_note: >
+    query_engine.py 在生成 Gemini prompt 时，
+    必须包含系统指令禁止输出任何合成方法相关内容。
+    这是架构层面的安全设计。

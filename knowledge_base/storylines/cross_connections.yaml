@@ -1,0 +1,99 @@
+# Omphalina — 跨化合物因果连接
+# 描述 7 个化合物之间的关联关系
+
+connections:
+  # ============================================================
+  # 同属双用途（和平/战争）
+  # ============================================================
+  - source_compound: synthetic_ammonia
+    target_compound: ddt
+    connection_type: 同属双用途
+    relationship_zh: "两者都是农业化学品/军事化学品的双面刃：合成氨生产化肥也生产炸药，DDT保护军人也毒害生态"
+    relationship_en: "Both are dual-use agricultural/military chemicals"
+    drama_score: 0.90
+    bidirectional: true
+
+  # ============================================================
+  # 同一发明者 / 同一实验室
+  # ============================================================
+  - source_compound: cfc
+    target_compound: plastics
+    connection_type: 同属环保危机
+    relationship_zh: "石化工业的双胞胎灾难：氟利昂捅破天（臭氧层），塑料堵塞地（海洋污染）"
+    relationship_en: "Petrochemical twin disasters: CFCs pierced the sky, plastics choked the earth"
+    drama_score: 0.85
+    bidirectional: true
+
+  # ============================================================
+  # 先追捧后质疑
+  # ============================================================
+  - source_compound: msg
+    target_compound: ddt
+    connection_type: 先追捧后质疑
+    relationship_zh: "都经历了'先被追捧为科学奇迹，后遭公众恐慌性抵制'的命运，但味精最终被科学平反，DDT至今仍有争议"
+    relationship_en: "Both went from 'scientific miracle' to public panic, but MSG was vindicated while DDT remains controversial"
+    drama_score: 0.80
+    bidirectional: true
+
+  # ============================================================
+  # 药物发现范式对比
+  # ============================================================
+  - source_compound: aspirin
+    target_compound: penicillin
+    connection_type: 药物范式对比
+    relationship_zh: "药物发现的两条路：阿司匹林代表'化学合成'路线（从柳树皮到实验室），青霉素代表'自然发现'路线（霉菌的偶然馈赠）"
+    relationship_en: "Two paradigms of drug discovery: aspirin (chemical synthesis) vs penicillin (natural discovery)"
+    drama_score: 0.75
+    bidirectional: true
+
+  # ============================================================
+  # 诺贝尔讽刺
+  # ============================================================
+  - source_compound: synthetic_ammonia
+    target_compound: cfc
+    connection_type: 诺贝尔讽刺
+    relationship_zh: "哈伯（合成氨）获1918诺贝尔奖后主导化学武器；DDT发明者穆勒获1948诺贝尔奖后DDT被全球禁用；CFC导致的臭氧层研究获1995诺贝尔奖——三个诺贝尔奖背后都是讽刺"
+    relationship_en: "Three Nobel Prizes, three ironies: Haber (ammonia→chemical weapons), Müller (DDT→banned), Rowland/Molina (discovered CFC damage)"
+    drama_score: 0.95
+    bidirectional: true
+
+  - source_compound: ddt
+    target_compound: synthetic_ammonia
+    connection_type: 诺贝尔讽刺
+    relationship_zh: "DDT(1948诺贝尔奖)和合成氨(1918诺贝尔奖)的发明者都因'造福人类'获奖，后来都与生态/战争灾难联系在一起"
+    relationship_en: "Both DDT and ammonia inventors won Nobels for 'benefiting humanity', both later linked to ecological/war disasters"
+    drama_score: 0.92
+    bidirectional: true
+
+  # ============================================================
+  # 战争催化
+  # ============================================================
+  - source_compound: penicillin
+    target_compound: ddt
+    connection_type: 战争催化
+    relationship_zh: "二战同时催化了两者的量产：青霉素救治盟军伤兵，DDT保护盟军免受疟疾和伤寒——两种'战争英雄'的命运却截然不同"
+    relationship_en: "WWII catalyzed mass production of both: penicillin healed soldiers, DDT protected them from disease — yet their fates diverged"
+    drama_score: 0.88
+    bidirectional: true
+
+  # ============================================================
+  # 个人悲剧的镜像
+  # ============================================================
+  - source_compound: synthetic_ammonia
+    target_compound: aspirin
+    connection_type: 个人悲剧
+    relationship_zh: "发明者的个人悲剧：哈伯的妻子因抗议他参与化学武器而自杀；阿司匹林的（可能的）真正发明者艾兴格林因犹太身份被纳粹关入集中营"
+    relationship_en: "Personal tragedies of inventors: Haber's wife committed suicide protesting his chemical weapons work; Eichengrün was imprisoned in a concentration camp"
+    drama_score: 0.93
+    bidirectional: true
+
+  # ============================================================
+  # 塑料与味精：日常生活的隐形统治者
+  # ============================================================
+  - source_compound: plastics
+    target_compound: msg
+    connection_type: 日常渗透
+    relationship_zh: "两者都是20世纪初的发明，都无声地渗透了全人类的日常生活——塑料包裹我们的一切，味精藏在我们的每一口食物里"
+    relationship_en: "Both early 20th century inventions silently permeated all of human daily life"
+    drama_score: 0.65
+    bidirectional: true

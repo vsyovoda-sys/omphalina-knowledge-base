@@ -1,0 +1,259 @@
+{
+  "project": "Omphalina",
+  "description": "化合物全景知识库 — 第一层百科数据",
+  "generated_at": "2026-02-07T11:52:09.690849",
+  "compounds": {
+    "aspirin": {
+      "filename": "aspirin",
+      "en_title": "Aspirin",
+      "zh_title": "阿司匹林",
+      "en_url": "https://en.wikipedia.org/wiki/Aspirin",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E4%B9%99%E9%85%B0%E6%B0%B4%E6%9D%A8%E9%85%B8",
+      "en_chars": 55049,
+      "zh_chars": 11741,
+      "total_chars": 66790,
+      "estimated_tokens": 23376,
+      "fetched_at": "2026-02-07T11:52:12.880033"
+    },
+    "synthetic_ammonia": {
+      "filename": "synthetic_ammonia",
+      "en_title": "Haber process",
+      "zh_title": "哈柏法",
+      "en_url": "https://en.wikipedia.org/wiki/Haber_process",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E5%93%88%E6%9F%8F%E6%B3%95",
+      "en_chars": 51409,
+      "zh_chars": 7561,
+      "total_chars": 58970,
+      "estimated_tokens": 20639,
+      "fetched_at": "2026-02-07T11:52:15.259753"
+    },
+    "plastics": {
+      "filename": "plastics",
+      "en_title": "Plastic",
+      "zh_title": "塑料",
+      "en_url": "https://en.wikipedia.org/wiki/Plastic",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E5%A1%91%E6%96%99",
+      "en_chars": 46664,
+      "zh_chars": 5148,
+      "total_chars": 51812,
+      "estimated_tokens": 18134,
+      "fetched_at": "2026-02-07T11:52:17.700676"
+    },
+    "ddt": {
+      "filename": "ddt",
+      "en_title": "DDT",
+      "zh_title": "滴滴涕",
+      "en_url": "https://en.wikipedia.org/wiki/DDT",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E6%BB%B4%E6%BB%B4%E6%B6%95",
+      "en_chars": 49115,
+      "zh_chars": 2036,
+      "total_chars": 51151,
+      "estimated_tokens": 17902,
+      "fetched_at": "2026-02-07T11:52:20.961391"
+    },
+    "cfc": {
+      "filename": "cfc",
+      "en_title": "Chlorofluorocarbon",
+      "zh_title": "氯氟烃",
+      "en_url": "https://en.wikipedia.org/wiki/Chlorofluorocarbon",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E6%B0%AF%E6%B0%9F%E7%83%83",
+      "en_chars": 29796,
+      "zh_chars": 1007,
+      "total_chars": 30803,
+      "estimated_tokens": 10781,
+      "fetched_at": "2026-02-07T11:52:23.288514"
+    },
+    "penicillin": {
+      "filename": "penicillin",
+      "en_title": "Penicillin",
+      "zh_title": "青霉素",
+      "en_url": "https://en.wikipedia.org/wiki/Penicillin",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E9%9D%92%E9%9C%89%E7%B4%A0",
+      "en_chars": 41972,
+      "zh_chars": 2175,
+      "total_chars": 44147,
+      "estimated_tokens": 15451,
+      "fetched_at": "2026-02-07T11:52:25.749010"
+    },
+    "msg": {
+      "filename": "msg",
+      "en_title": "Monosodium glutamate",
+      "zh_title": "味精",
+      "en_url": "https://en.wikipedia.org/wiki/Monosodium_glutamate",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E5%91%B3%E7%B2%BE",
+      "en_chars": 12775,
+      "zh_chars": 4895,
+      "total_chars": 17670,
+      "estimated_tokens": 6184,
+      "fetched_at": "2026-02-07T11:52:29.767405"
+    }
+  },
+  "topics": {
+    "history_of_aspirin": {
+      "en_title": "History of aspirin",
+      "zh_title": null,
+      "en_url": "https://en.wikipedia.org/wiki/History_of_aspirin",
+      "zh_url": null,
+      "en_chars": 28993,
+      "zh_chars": 0,
+      "total_chars": 28993,
+      "estimated_tokens": 10147,
+      "fetched_at": "2026-02-07T11:52:31.538703",
+      "category": "专题"
+    },
+    "history_of_penicillin": {
+      "en_title": "History of penicillin",
+      "zh_title": null,
+      "en_url": "https://en.wikipedia.org/wiki/History_of_penicillin",
+      "zh_url": null,
+      "en_chars": 68783,
+      "zh_chars": 0,
+      "total_chars": 68783,
+      "estimated_tokens": 24074,
+      "fetched_at": "2026-02-07T11:52:33.268896",
+      "category": "专题"
+    },
+    "silent_spring": {
+      "en_title": "Silent Spring",
+      "zh_title": "寂静的春天",
+      "en_url": "https://en.wikipedia.org/wiki/Silent_Spring",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E5%AF%82%E9%9D%99%E7%9A%84%E6%98%A5%E5%A4%A9",
+      "en_chars": 30069,
+      "zh_chars": 1180,
+      "total_chars": 31249,
+      "estimated_tokens": 10937,
+      "fetched_at": "2026-02-07T11:52:35.729049",
+      "category": "专题"
+    },
+    "montreal_protocol": {
+      "en_title": "Montreal Protocol",
+      "zh_title": "蒙特利尔议定书",
+      "en_url": "https://en.wikipedia.org/wiki/Montreal_Protocol",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E8%92%99%E7%89%B9%E5%88%A9%E5%B0%94%E8%AE%AE%E5%AE%9A%E4%B9%A6",
+      "en_chars": 29687,
+      "zh_chars": 3874,
+      "total_chars": 33561,
+      "estimated_tokens": 11746,
+      "fetched_at": "2026-02-07T11:52:38.070181",
+      "category": "专题"
+    },
+    "haber_process_history": {
+      "en_title": "Fritz Haber",
+      "zh_title": "弗里茨·哈伯",
+      "en_url": "https://en.wikipedia.org/wiki/Fritz_Haber",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E9%87%8C%E8%8C%A8%C2%B7%E5%93%88%E4%BC%AF",
+      "en_chars": 35719,
+      "zh_chars": 2698,
+      "total_chars": 38417,
+      "estimated_tokens": 13445,
+      "fetched_at": "2026-02-07T11:52:40.610705",
+      "category": "专题"
+    }
+  },
+  "people": {
+    "fritz_haber": {
+      "en_title": "Fritz Haber",
+      "zh_title": "弗里茨·哈伯",
+      "en_url": "https://en.wikipedia.org/wiki/Fritz_Haber",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E5%BC%97%E9%87%8C%E8%8C%A8%C2%B7%E5%93%88%E4%BC%AF",
+      "en_chars": 35719,
+      "zh_chars": 2698,
+      "total_chars": 38417,
+      "estimated_tokens": 13445,
+      "fetched_at": "2026-02-07T11:52:42.912253",
+      "category": "人物传记"
+    },
+    "rachel_carson": {
+      "en_title": "Rachel Carson",
+      "zh_title": "蕾切尔·卡森",
+      "en_url": "https://en.wikipedia.org/wiki/Rachel_Carson",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E9%9B%B7%E5%88%87%E5%B0%94%C2%B7%E5%8D%A1%E6%A3%AE",
+      "en_chars": 52791,
+      "zh_chars": 2191,
+      "total_chars": 54982,
+      "estimated_tokens": 19243,
+      "fetched_at": "2026-02-07T11:52:47.280515",
+      "category": "人物传记"
+    },
+    "alexander_fleming": {
+      "en_title": "Alexander Fleming",
+      "zh_title": "亚历山大·弗莱明",
+      "en_url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E5%BC%97%E8%8E%B1%E6%98%8E",
+      "en_chars": 26717,
+      "zh_chars": 1113,
+      "total_chars": 27830,
+      "estimated_tokens": 9740,
+      "fetched_at": "2026-02-07T11:52:49.758767",
+      "category": "人物传记"
+    },
+    "thomas_midgley": {
+      "en_title": "Thomas Midgley Jr.",
+      "zh_title": "小托马斯·米奇利",
+      "en_url": "https://en.wikipedia.org/wiki/Thomas_Midgley_Jr.",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E6%89%98%E9%A9%AC%E6%96%AF%C2%B7%E7%B1%B3%E5%9F%BA%E5%88%A9",
+      "en_chars": 11027,
+      "zh_chars": 2068,
+      "total_chars": 13095,
+      "estimated_tokens": 4583,
+      "fetched_at": "2026-02-07T11:52:52.881132",
+      "category": "人物传记"
+    },
+    "paul_mueller": {
+      "en_title": "Paul Hermann Müller",
+      "zh_title": null,
+      "en_url": "https://en.wikipedia.org/wiki/Paul_Hermann_M%C3%BCller",
+      "zh_url": null,
+      "en_chars": 13423,
+      "zh_chars": 0,
+      "total_chars": 13423,
+      "estimated_tokens": 4698,
+      "fetched_at": "2026-02-07T11:52:55.299103",
+      "category": "人物传记"
+    },
+    "kikunae_ikeda": {
+      "en_title": "Kikunae Ikeda",
+      "zh_title": "池田菊苗",
+      "en_url": "https://en.wikipedia.org/wiki/Kikunae_Ikeda",
+      "zh_url": "https://zh.wikipedia.org/wiki/%E6%B1%A0%E7%94%B0%E8%8F%8A%E8%8B%97",
+      "en_chars": 2571,
+      "zh_chars": 839,
+      "total_chars": 3410,
+      "estimated_tokens": 1193,
+      "fetched_at": "2026-02-07T11:52:57.911010",
+      "category": "人物传记"
+    },
+    "felix_hoffmann": {
+      "en_title": "Felix Hoffmann",
+      "zh_title": null,
+      "en_url": "https://en.wikipedia.org/wiki/Felix_Hoffmann",
+      "zh_url": null,
+      "en_chars": 4396,
+      "zh_chars": 0,
+      "total_chars": 4396,
+      "estimated_tokens": 1538,
+      "fetched_at": "2026-02-07T11:53:00.070399",
+      "category": "人物传记"
+    },
+    "carl_bosch": {
+      "en_title": "Carl Bosch",
+      "zh_title": "卡尔·博施",
+      "en_url": "https://en.wikipedia.org/wiki/Carl_Bosch",
+      "zh_url": null,
+      "en_chars": 8128,
+      "zh_chars": 0,
+      "total_chars": 8128,
+      "estimated_tokens": 2844,
+      "fetched_at": "2026-02-07T11:53:02.998632",
+      "category": "人物传记"
+    }
+  },
+  "totals": {
+    "total_chars": 686027,
+    "total_estimated_tokens": 240100,
+    "gemini_context_usage_pct": 24.0,
+    "compound_count": 7,
+    "topic_count": 5,
+    "people_count": 8
+  }
+}

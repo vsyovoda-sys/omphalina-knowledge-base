@@ -1,0 +1,312 @@
+# 塑料故事线 — 基于 encyclopedia/compounds/plastics.md 提取
+# 戏剧性历史节点 + 因果网络 + 评分
+
+compound:
+  id: plastics
+  name_zh: 塑料
+  name_en: Plastics
+  aliases_zh: [塑料, 塑膠, 合成高分子]
+  category: 合成材料
+  year_invented: 1907
+  formula: "(各种聚合物)"
+  safety_note: "本条目仅讨论历史和社会影响，不涉及合成方法或化学配方"
+
+  people:
+    - id: leo_baekeland
+      name_zh: 利奥·贝克兰
+      name_en: Leo Baekeland
+      role: 发明了世界上第一种全合成塑料"电木"(Bakelite)，并创造了"塑料"一词
+      nationality: 比利时/美国
+      year: 1907
+      irony_note: "他创造了'plastics'这个词——如今这个词既代表'现代奇迹'也代表'环境灾难'"
+
+    - id: alexander_parkes
+      name_zh: 亚历山大·帕克斯
+      name_en: Alexander Parkes
+      role: 1855年发明赛璐珞(Parkesine)——第一种人造塑料
+      nationality: 英国
+      year: 1855
+      irony_note: "赛璐珞最初被用来模仿象牙——一种为拯救大象而生的材料，最终制造了远超象牙的环境危机"
+
+    - id: hermann_staudinger
+      name_zh: 赫尔曼·施陶丁格
+      name_en: Hermann Staudinger
+      role: '"高分子化学之父"，证明了聚合物是真正的大分子'
+      nationality: 德国
+      year: 1920
+      nobel_year: 1953
+      irony_note: "在同行嘲笑他的理论几十年后获得了诺贝尔奖"
+
+    - id: giulio_natta
+      name_zh: 朱利奥·纳塔
+      name_en: Giulio Natta
+      role: 发现了聚丙烯的等规聚合法
+      nationality: 意大利
+      year: 1954
+      nobel_year: 1963
+      irony_note: "他的发明使塑料包装变得廉价到可以随手丢弃——这恰恰导致了全球塑料污染"
+
+  events:
+    - id: parkesine_1855
+      name_zh: 帕克斯发明赛璐珞——第一种人造塑料
+      name_en: Parkes invents Parkesine — first man-made plastic
+      year: 1855
+      domain: 化学
+      scale: 国家
+      location: 英国
+      quote: "用硝酸处理纤维素，可以塑造成仿象牙——1862年伦敦国际博览会上获铜奖"
+      source_ref: "encyclopedia/compounds/plastics.md ## History"
+
+    - id: bakelite_1907
+      name_zh: 贝克兰发明电木(Bakelite)——世界第一种全合成塑料
+      name_en: Baekeland invents Bakelite — world's first fully synthetic plastic
+      year: 1907
+      domain: 化学/工业
+      scale: 全球
+      location: 美国纽约
+      quote: "贝克兰不仅发明了电木，还创造了'plastics'这个词——由此开启了塑料时代"
+
+    - id: polyethylene_accident_1933
+      name_zh: ICI实验室意外发现聚乙烯——一个实验事故改变了世界
+      name_en: ICI researchers accidentally discover polyethylene
+      year: 1933
+      domain: 化学
+      scale: 全球
+      location: 英国
+      quote: "Reginald Gibson和Eric Fawcett的一个'失败的'高压实验，意外产生了如今产量最大的塑料"
+
+    - id: nylon_and_mass_production_1940s
+      name_zh: 二战后塑料大爆发——尼龙、聚苯乙烯、PVC进入千家万户
+      name_en: Post-WWII plastic explosion — nylon, PS, PVC enter everyday life
+      year: 1940
+      end_year: 1960
+      domain: 工业
+      scale: 全球
+      quote: "从军需品到消费品，塑料用量在1940-1960年间爆发式增长"
+
+    - id: polypropylene_1954
+      name_zh: 纳塔发现聚丙烯——使廉价一次性包装成为可能
+      name_en: Natta discovers polypropylene — enabling disposable packaging
+      year: 1954
+      domain: 化学/工业
+      scale: 全球
+      location: 意大利
+      quote: "聚丙烯使塑料包装变得如此便宜，以至于人类开始把包装当作'用完就扔'"
+
+    - id: production_milestone_9_billion
+      name_zh: 1950-2017年人类共生产92亿吨塑料
+      name_en: 9.2 billion tonnes of plastic produced between 1950-2017
+      year: 2017
+      domain: 工业
+      scale: 全球
+      quote: "92亿吨——其中超过一半是2004年以后生产的。仅9%被回收，12%被焚烧，79%在垃圾场或自然环境中"
+
+    - id: great_pacific_garbage_patch
+      name_zh: 太平洋垃圾带——海洋塑料污染的象征
+      name_en: Great Pacific Garbage Patch — symbol of marine plastic pollution
+      year: 1997
+      domain: 环境
+      scale: 全球
+      location: 太平洋
+      quote: "海洋垃圾中50%-80%是塑料——形成了面积比法国还大的垃圾漂浮带"
+
+    - id: microplastics_discovery
+      name_zh: 微塑料被发现无处不在——食物链、人体血液、北极冰层
+      name_en: Microplastics found everywhere — food chain, human blood, Arctic ice
+      year: 2004
+      end_year: 2026
+      domain: 环境/健康
+      scale: 全球
+      quote: "1960年代首次在海鸟肠道中发现微塑料，如今在人体血液、胎盘和北极冰芯中都检测到了"
+
+    - id: plasticosis_2023
+      name_zh: '发现新疾病"塑料病"——海鸟因吞食塑料导致消化道纤维化'
+      name_en: '"Plasticosis" discovered — new disease in seabirds from plastic ingestion'
+      year: 2023
+      domain: 生态
+      scale: 全球
+      quote: "2023年，科学家在海鸟体内发现了一种全新的疾病——因持续吞食塑料碎片导致消化道永久性纤维化"
+
+    - id: global_plastic_treaty_negotiations
+      name_zh: 联合国启动全球塑料公约谈判
+      name_en: UN begins negotiations for global plastics treaty
+      year: 2022
+      end_year: 2025
+      domain: 国际法
+      scale: 全球
+      quote: "2025年，历史上首次几乎所有国家不仅讨论回收，还讨论减产——因为塑料占全球碳排放3-5%"
+
+  consequences:
+    - id: modern_life_transformation
+      description_zh: 塑料彻底改变了现代生活——从医疗器械到建筑材料到食品包装
+      description_en: Plastics fundamentally transformed modern life
+      type: 正面
+      domain: 工业/社会
+      scale: 全球
+      ongoing: true
+      quantifier: "全球年产4亿+吨"
+
+    - id: ocean_plastic_crisis
+      description_zh: 每年800-1200万吨塑料入海，形成海洋生态灾难
+      description_en: 8-12 million tonnes of plastic enter oceans annually
+      type: 负面
+      domain: 环境
+      scale: 全球
+      ongoing: true
+      quantifier: "年入海800-1200万吨"
+
+    - id: microplastic_health_threat
+      description_zh: 微塑料进入食物链和人体，长期健康影响尚不明确
+      description_en: Microplastics enter food chain and human bodies — long-term effects unknown
+      type: 负面
+      domain: 健康/环境
+      scale: 全球
+      ongoing: true
+
+    - id: recycling_failure
+      description_zh: 全球塑料仅9%被回收——回收神话与现实的巨大鸿沟
+      description_en: Only ~9% of all plastic ever produced has been recycled
+      type: 讽刺
+      domain: 环境
+      scale: 全球
+      ongoing: true
+      quantifier: "仅9%"
+
+  causal_chains:
+    # 化合物 → 事件
+    - source: plastics
+      target: parkesine_1855
+      type: ENABLED
+      drama_score: 0.60
+      irony_level: 0.55
+      description_zh: "为模仿象牙而生的材料——一个拯救大象的初衷，最终制造了远超象牙贸易的环境危机"
+      domains: [化学, 环境]
+
+    - source: plastics
+      target: bakelite_1907
+      type: ENABLED
+      drama_score: 0.80
+      irony_level: 0.50
+      description_zh: "世界上第一种完全由化学家从零创造的材料——人类从此可以'设计'物质"
+      domains: [化学, 工业]
+
+    - source: plastics
+      target: polyethylene_accident_1933
+      type: ENABLED
+      drama_score: 0.85
+      irony_level: 0.70
+      description_zh: "如今产量最大的塑料诞生于一个'失败的'实验——科学史上又一个改变世界的意外"
+      description_en: "The world's most produced plastic was born from a 'failed' experiment"
+      domains: [化学, 工业]
+
+    - source: plastics
+      target: nylon_and_mass_production_1940s
+      type: ENABLED
+      drama_score: 0.75
+      irony_level: 0.40
+      description_zh: "二战推动了塑料从实验室新奇事物到工业必需品的转变"
+      domains: [工业, 军事]
+
+    - source: plastics
+      target: polypropylene_1954
+      type: ENABLED
+      drama_score: 0.70
+      irony_level: 0.60
+      description_zh: "使一次性包装变得'太便宜不值得回收'的发明——便利性杀死了可持续性"
+      domains: [化学, 工业, 环境]
+
+    - source: plastics
+      target: production_milestone_9_billion
+      type: CAUSED
+      drama_score: 0.88
+      irony_level: 0.75
+      description_zh: "92亿吨——其中一半以上是2004年以后生产的。人类创造了一种比自己活得更久的材料"
+      description_en: "9.2 billion tonnes — more than half produced after 2004. We created a material that outlives us"
+      domains: [工业, 环境]
+
+    - source: plastics
+      target: great_pacific_garbage_patch
+      type: CAUSED
+      drama_score: 0.90
+      irony_level: 0.80
+      description_zh: "太平洋上漂浮着一个塑料'大陆'——面积比法国还大"
+      domains: [环境, 海洋]
+
+    - source: plastics
+      target: microplastics_discovery
+      type: CAUSED
+      drama_score: 0.92
+      irony_level: 0.85
+      description_zh: "我们制造的塑料碎成了肉眼看不见的微粒，如今存在于每一个人的血液中"
+      description_en: "The plastic we made shattered into invisible particles now found in every human's blood"
+      domains: [环境, 健康]
+
+    - source: plastics
+      target: plasticosis_2023
+      type: CAUSED
+      drama_score: 0.85
+      irony_level: 0.82
+      description_zh: "人类制造出了一种全新的疾病——不是病毒，不是细菌，是我们自己的垃圾"
+      domains: [生态, 健康]
+
+    # 事件 → 后果
+    - source: bakelite_1907
+      target: modern_life_transformation
+      type: CAUSED
+      drama_score: 0.80
+      irony_level: 0.45
+      description_zh: "从电木到聚乙烯到尼龙——塑料定义了20世纪的物质文明"
+      domains: [工业, 社会]
+
+    - source: great_pacific_garbage_patch
+      target: ocean_plastic_crisis
+      type: CAUSED
+      drama_score: 0.88
+      irony_level: 0.70
+      description_zh: "每年8-12百万吨塑料入海——海洋垃圾中80%是塑料"
+      domains: [环境, 海洋]
+
+    - source: microplastics_discovery
+      target: microplastic_health_threat
+      type: CAUSED
+      drama_score: 0.90
+      irony_level: 0.80
+      description_zh: "微塑料已进入人体——但其长期健康影响依然是巨大的未知"
+      domains: [健康, 环境]
+
+    # 讽刺反转链
+    - source: modern_life_transformation
+      target: ocean_plastic_crisis
+      type: IRONIC_TWIST
+      drama_score: 0.93
+      irony_level: 0.90
+      description_zh: "20世纪最伟大的发明正在成为21世纪最严重的环境危机——便利性的代价"
+      description_en: "The 20th century's greatest invention is becoming the 21st century's worst environmental crisis"
+      domains: [工业, 环境]
+
+    - source: modern_life_transformation
+      target: recycling_failure
+      type: IRONIC_TWIST
+      drama_score: 0.85
+      irony_level: 0.92
+      description_zh: "回收的承诺维持了塑料的正当性——但数据显示只有9%被回收。回收是神话还是遮羞布？"
+      description_en: "The promise of recycling sustained plastic's legitimacy — but only 9% is actually recycled"
+      domains: [环境, 工业]
+
+    - source: parkesine_1855
+      target: ocean_plastic_crisis
+      type: IRONIC_TWIST
+      drama_score: 0.80
+      irony_level: 0.88
+      description_zh: "为拯救大象从象牙贸易中解放出来而发明的材料，最终成为海洋生态系统的噩梦"
+      description_en: "Material invented to save elephants from ivory trade became an oceanic ecological nightmare"
+      domains: [环境, 历史]
+
+  cross_connections:
+    - target_compound: cfc
+      relationship_zh: "石化工业双胞胎灾难：CFC捅破天，塑料堵塞地"
+      connection_type: 同属环保危机
+
+    - target_compound: synthetic_ammonia
+      relationship_zh: "20世纪化工业两大'造福人类后反噬'的发明"
+      connection_type: 双面刃发明

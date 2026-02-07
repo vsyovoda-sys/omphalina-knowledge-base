@@ -1,0 +1,260 @@
+# 味精故事线 — 基于 encyclopedia/compounds/msg.md 提取
+# 戏剧性历史节点 + 因果网络 + 评分
+
+compound:
+  id: msg
+  name_zh: 味精 (谷氨酸钠)
+  name_en: MSG (Monosodium Glutamate)
+  aliases_zh: [味精, 味素, 谷氨酸钠, 味之素]
+  category: 食品添加剂
+  year_invented: 1908
+  formula: C₅H₈NNaO₄
+  cas_number: "142-47-2"
+  safety_note: "本条目仅讨论历史和社会影响，不涉及食品安全建议"
+
+  people:
+    - id: kikunae_ikeda
+      name_zh: 池田菊苗
+      name_en: Kikunae Ikeda
+      role: 东京帝国大学教授，发现鲜味并发明味精
+      nationality: 日本
+      year: 1908
+      irony_note: "发现了酸甜苦咸之外的第五种味道——西方科学界花了近一个世纪才正式承认它的存在"
+
+    - id: robert_ho_man_kwok
+      name_zh: '"郭浩民"（可能是虚构身份）'
+      name_en: Robert Ho Man Kwok (possibly fictitious)
+      role: 1968年写信给《新英格兰医学杂志》声称吃中餐后出现不适
+      nationality: 美国
+      year: 1968
+      irony_note: "据调查可能是两名美国年轻医生的恶作剧——杜撰的一封信建立了持续数十年的种族偏见"
+
+    - id: suzuki_brothers
+      name_zh: 铃木兄弟
+      name_en: Suzuki Brothers
+      role: 1909年开始商业化生产味精，创立味之素品牌
+      nationality: 日本
+      year: 1909
+      irony_note: "味之素（'风味之精华'）成为全球品牌——同时也成了西方反MSG恐慌的靶子"
+
+  events:
+    - id: ikeda_umami_discovery
+      name_zh: 池田菊苗从海带中分离出谷氨酸——发现第五种味道"鲜味"
+      name_en: Ikeda isolates glutamic acid from kombu — discovers umami
+      year: 1908
+      domain: 科学/食品
+      scale: 全球
+      location: 日本东京
+      quote: "他注意到柴鱼片和海带的高汤有一种'甜酸苦咸都无法描述'的独特滋味，命名为'鲜味'(umami)"
+      source_ref: "encyclopedia/compounds/msg.md ## History"
+
+    - id: ajinomoto_commercial_1909
+      name_zh: 铃木兄弟开始商业化生产"味之素"
+      name_en: Suzuki Brothers begin commercial MSG production as Ajinomoto
+      year: 1909
+      domain: 工业/食品
+      scale: 全球
+      location: 日本
+      quote: "'味之素'——日文'风味之精华'——世界上第一种被提纯的鲜味增强剂"
+
+    - id: chinese_restaurant_syndrome_letter
+      name_zh: 《新英格兰医学杂志》发表"中餐馆综合症"读者来信
+      name_en: '"Chinese Restaurant Syndrome" letter published in NEJM'
+      year: 1968
+      domain: 文化/医学
+      scale: 全球
+      location: 美国
+      quote: "一封署名'Robert Ho Man Kwok'的信声称每次吃中餐后都出现头痛、麻木、心悸——引发了持续数十年的MSG恐慌"
+
+    - id: hoax_revelation
+      name_zh: 调查揭示"郭浩民"可能是两名美国医生打赌的恶作剧
+      name_en: Investigation reveals the letter may have been a hoax by two young doctors
+      year: 2018
+      domain: 文化/媒体
+      scale: 全球
+      quote: "迈克尔·布兰丁的调查报道：那封信可能是两个年轻美国医生打赌谁能在严肃学术期刊上发表胡说八道"
+      source_ref: "encyclopedia/compounds/msg.md ## 中菜館綜合症"
+
+    - id: fda_gras_status
+      name_zh: FDA将味精列为"公认安全"(GRAS)
+      name_en: FDA classifies MSG as Generally Recognized as Safe (GRAS)
+      year: 1958
+      domain: 法律/食品安全
+      scale: 国家
+      location: 美国
+      quote: "美国食品药品监督管理局认定味精在正常食用量下对人体安全"
+
+    - id: faseb_1995_report
+      name_zh: FASEB报告结论：正常食用量下MSG是安全的
+      name_en: FASEB report concludes MSG is safe at customary levels
+      year: 1995
+      domain: 科学
+      scale: 全球
+      quote: "双盲安慰剂对照实验反复证明：正常餐食中的MSG含量不会引起任何症状"
+
+    - id: umami_finally_accepted
+      name_zh: 鲜味被科学界正式承认为第五种基本味觉
+      name_en: Umami officially recognized as the fifth basic taste
+      year: 2002
+      domain: 科学
+      scale: 全球
+      quote: "发现鲜味味觉受体后，西方科学终于承认了池田菊苗1908年就描述的'第五种味道'"
+
+    - id: pakistan_ban_and_lift
+      name_zh: 巴基斯坦旁遮普省禁止味精后又解禁
+      name_en: Pakistan Punjab bans then lifts MSG ban after scientific review
+      year: 2018
+      end_year: 2024
+      domain: 法律/食品安全
+      scale: 国家
+      location: 巴基斯坦
+      quote: "科学委员会审查后确认MSG是安全的食品添加剂——禁令被撤销"
+
+  consequences:
+    - id: umami_revolution
+      description_zh: 鲜味概念改变了全球烹饪和食品工业
+      description_en: Umami concept transformed global cuisine and food industry
+      type: 正面
+      domain: 食品/文化
+      scale: 全球
+      ongoing: true
+
+    - id: racial_food_stigma
+      description_zh: '"中餐馆综合症"成为针对亚洲食品的种族偏见标签'
+      description_en: '"Chinese Restaurant Syndrome" became a racially charged stigma against Asian food'
+      type: 负面
+      domain: 文化/种族
+      scale: 全球
+      ongoing: true
+
+    - id: scientific_vindication
+      description_zh: 数十年双盲研究最终证明MSG在正常食用量下无害
+      description_en: Decades of blinded studies ultimately proved MSG safe at normal levels
+      type: 正面
+      domain: 科学
+      scale: 全球
+
+    - id: western_umami_appropriation
+      description_zh: 西方曾嘲讽味精的文化后来拥抱"鲜味"为高级烹饪概念
+      description_en: Western culture that stigmatized MSG later embraced "umami" as haute cuisine
+      type: 讽刺
+      domain: 文化
+      scale: 全球
+      ongoing: true
+
+  causal_chains:
+    # 化合物 → 事件
+    - source: msg
+      target: ikeda_umami_discovery
+      type: ENABLED
+      drama_score: 0.80
+      irony_level: 0.50
+      description_zh: "一碗海带高汤引发的科学发现——酸甜苦咸之外的第五种味道"
+      domains: [科学, 食品]
+
+    - source: msg
+      target: ajinomoto_commercial_1909
+      type: ENABLED
+      drama_score: 0.65
+      irony_level: 0.30
+      description_zh: "'味之素'开创了现代调味品工业"
+      domains: [工业, 食品]
+      time_lag_years: 1
+
+    - source: msg
+      target: chinese_restaurant_syndrome_letter
+      type: ENABLED
+      drama_score: 0.90
+      irony_level: 0.95
+      description_zh: "一封可能是恶作剧的读者来信，让一个安全的调味品背负了几十年的种族偏见骂名"
+      description_en: "A possibly hoax letter burdened a safe seasoning with decades of racial stigma"
+      domains: [文化, 种族, 媒体]
+
+    - source: chinese_restaurant_syndrome_letter
+      target: hoax_revelation
+      type: IRONIC_TWIST
+      drama_score: 0.88
+      irony_level: 0.98
+      description_zh: "50年后调查揭示：改变公众认知的那封信可能只是两个医生的赌注游戏"
+      description_en: "50 years later: the letter that changed public perception may have been a bet between two doctors"
+      domains: [媒体, 文化]
+      time_lag_years: 50
+
+    - source: msg
+      target: fda_gras_status
+      type: ENABLED
+      drama_score: 0.60
+      irony_level: 0.45
+      description_zh: "FDA早在1958年就认定MSG安全——但公众恐慌持续了数十年不为所动"
+      domains: [法律, 科学]
+
+    - source: msg
+      target: faseb_1995_report
+      type: ENABLED
+      drama_score: 0.70
+      irony_level: 0.60
+      description_zh: "大规模双盲试验反复得出同一结论：正常食用量的MSG不会引起任何症状——但公众依然恐惧"
+      domains: [科学, 医学]
+
+    - source: msg
+      target: umami_finally_accepted
+      type: ENABLED
+      drama_score: 0.82
+      irony_level: 0.80
+      description_zh: "池田1908年就命名的'鲜味'，西方科学花了近一个世纪才正式承认——直到发现鲜味受体"
+      description_en: "Ikeda named 'umami' in 1908 — it took nearly a century for Western science to formally accept it"
+      domains: [科学, 文化]
+      time_lag_years: 94
+
+    # 事件 → 后果
+    - source: ikeda_umami_discovery
+      target: umami_revolution
+      type: CAUSED
+      drama_score: 0.75
+      irony_level: 0.40
+      description_zh: "第五种味觉重新定义了烹饪——如今每个米其林厨师都谈论'鲜味层次'"
+      domains: [食品, 文化]
+
+    - source: chinese_restaurant_syndrome_letter
+      target: racial_food_stigma
+      type: CAUSED
+      drama_score: 0.88
+      irony_level: 0.92
+      description_zh: "一封来路不明的信建造了针对亚洲食品长达数十年的种族偏见——'中餐综合症'本身就是偏见"
+      description_en: "A letter of dubious origin constructed decades of racial bias against Asian food"
+      domains: [种族, 文化, 媒体]
+
+    - source: faseb_1995_report
+      target: scientific_vindication
+      type: CAUSED
+      drama_score: 0.75
+      irony_level: 0.55
+      description_zh: "科学最终为味精平反——但修正公众偏见比做实验难多了"
+      domains: [科学]
+
+    # 讽刺反转链
+    - source: racial_food_stigma
+      target: western_umami_appropriation
+      type: IRONIC_TWIST
+      drama_score: 0.92
+      irony_level: 0.98
+      description_zh: "同一个文化先嘲讽'中餐馆放味精太多'，后来又追捧'鲜味是高级料理的灵魂'——本质上是同一种化学物质"
+      description_en: "Same culture first mocked Chinese restaurants for MSG, then celebrated 'umami' as haute cuisine — same chemical substance"
+      domains: [文化, 种族, 食品]
+
+    - source: chinese_restaurant_syndrome_letter
+      target: scientific_vindication
+      type: IRONIC_TWIST
+      drama_score: 0.85
+      irony_level: 0.90
+      description_zh: "一封可能的恶作剧信引发了几十年的科学研究——结论是：信是假的，味精是安全的"
+      domains: [科学, 媒体]
+
+  cross_connections:
+    - target_compound: ddt
+      relationship_zh: "都经历了'先追捧后恐慌'的命运——但味精最终被科学平反"
+      connection_type: 先追捧后质疑
+
+    - target_compound: aspirin
+      relationship_zh: "日常生活中渗透最深的两种化学品——一个缓解疼痛，一个增强滋味"
+      connection_type: 日常渗透

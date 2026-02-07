@@ -1,0 +1,304 @@
+# CFC (氯氟烃) 故事线 — 基于 encyclopedia/compounds/cfc.md 提取
+# 戏剧性历史节点 + 因果网络 + 评分
+
+compound:
+  id: cfc
+  name_zh: 氯氟烃 (氟利昂)
+  name_en: Chlorofluorocarbon (CFC / Freon)
+  aliases_zh: [氯氟烃, 氟利昂, CFC, 氟氯碳化合物]
+  category: 工业化学品
+  year_invented: 1928
+  formula: CCl₂F₂ (CFC-12)
+  safety_note: "本条目仅讨论历史和社会影响，不涉及合成方法或配方"
+
+  people:
+    - id: thomas_midgley
+      name_zh: 小托马斯·米基利
+      name_en: Thomas Midgley Jr.
+      role: CFC发明者，通用汽车化学家
+      nationality: 美国
+      year: 1928
+      irony_note: "被环境史学家称为'对大气层影响最大的单个有机体'——同时还发明了含铅汽油"
+
+    - id: sherwood_rowland
+      name_zh: 弗兰克·舍伍德·罗兰
+      name_en: F. Sherwood Rowland
+      role: 发现CFC破坏臭氧层的化学家
+      nationality: 美国
+      year: 1974
+      nobel_year: 1995
+      irony_note: "发表论文后遭化工行业攻击多年，直到臭氧空洞被发现才得到平反"
+
+    - id: mario_molina
+      name_zh: 马里奥·莫利纳
+      name_en: Mario Molina
+      role: 与罗兰共同发现CFC-臭氧机制的墨西哥化学家
+      nationality: 墨西哥
+      year: 1974
+      nobel_year: 1995
+      irony_note: "一位博士后改变了全球大气化学——并推动了人类历史上最成功的环保条约"
+
+    - id: james_lovelock
+      name_zh: 詹姆斯·拉夫洛克
+      name_en: James Lovelock
+      role: 用自研电子捕获检测器首次发现大气中CFC
+      nationality: 英国
+      year: 1970
+      irony_note: "自费研究发现CFC无处不在，却得出了'对环境无害'的错误结论"
+
+  events:
+    - id: toxic_refrigerant_accidents
+      name_zh: 1920年代致命制冷剂泄漏事故频发
+      name_en: Fatal refrigerant leaks in the 1920s
+      year: 1920
+      end_year: 1928
+      domain: 工业安全
+      scale: 国家
+      location: 美国
+      quote: "氨、二氧化硫、氯甲烷——早期冰箱使用的制冷剂频繁泄漏致死"
+      source_ref: "encyclopedia/compounds/cfc.md ## History"
+
+    - id: midgley_demo_1930
+      name_zh: 米基利当众吸入氟利昂并吹灭蜡烛
+      name_en: Midgley inhales Freon and blows out a candle in demo
+      year: 1930
+      domain: 工业
+      scale: 国家
+      location: 美国
+      quote: "在美国化学学会的演示中，他深吸一口氟利昂并用它吹灭蜡烛——炫耀其无毒无燃性"
+
+    - id: freon_mass_production
+      name_zh: 通用汽车与杜邦成立Kinetic公司量产氟利昂
+      name_en: GM and DuPont mass-produce Freon
+      year: 1930
+      domain: 工业
+      scale: 全球
+      quote: "到1935年，800万台使用R-12的冰箱售出。城市公共卫生法规指定CFC为公共建筑唯一合法制冷剂"
+
+    - id: peak_cfc_production
+      name_zh: CFC年产超百万吨，年销售超10亿美元
+      name_en: CFC production peaks at over 1 million metric tonnes annually
+      year: 1974
+      domain: 工业
+      scale: 全球
+      quote: "从冰箱到气雾罐到灭火器——CFC渗透到现代生活的每个角落"
+
+    - id: rowland_molina_paper_1974
+      name_zh: 罗兰和莫利纳发表CFC破坏臭氧层的论文
+      name_en: Rowland and Molina publish CFC-ozone depletion theory
+      year: 1974
+      domain: 科学
+      scale: 全球
+      quote: "CFC最吸引人的特性——低反应性——恰恰是它最具破坏性的根源：化学惰性让它活到平流层"
+      source_ref: "encyclopedia/compounds/cfc.md ## Regulation"
+
+    - id: industry_attacks_scientists
+      name_zh: 化工行业攻击罗兰和莫利纳——杜邦带头反对
+      name_en: Chemical industry attacks Rowland-Molina findings
+      year: 1975
+      end_year: 1986
+      domain: 政治/工业
+      scale: 全球
+      quote: "杜邦成立'负责任CFC政策联盟'游说团体对抗监管——直到自己的替代品专利到手才转向"
+
+    - id: ozone_hole_discovered
+      name_zh: 发现南极臭氧空洞——季节性臭氧层剧烈耗损
+      name_en: Discovery of the Antarctic ozone hole
+      year: 1985
+      domain: 科学/环境
+      scale: 全球
+      location: 南极
+      quote: "令人震惊的观测数据——南极上空的臭氧层在每年春季几乎消失殆尽"
+
+    - id: montreal_protocol_1987
+      name_zh: 蒙特利尔议定书签署——要求大幅削减CFC
+      name_en: Montreal Protocol signed — drastic CFC reduction
+      year: 1987
+      domain: 国际法
+      scale: 全球
+      location: 加拿大蒙特利尔
+      quote: "被联合国称为'也许是迄今为止最成功的国际环保协议'"
+
+    - id: dupont_reversal_1986
+      name_zh: 杜邦公司立场反转——从CFC捍卫者变为禁令推动者
+      name_en: DuPont reverses position — from CFC defender to ban advocate
+      year: 1986
+      domain: 工业/政治
+      scale: 全球
+      quote: "手握替代品HCFC专利的杜邦代表出现在蒙特利尔议定书上，呼吁全球禁止CFC"
+
+    - id: ozone_recovery_2018
+      name_zh: NASA宣布臭氧层空洞开始恢复
+      name_en: NASA announces ozone hole has begun to recover
+      year: 2018
+      domain: 环境
+      scale: 全球
+      quote: "人类证明了集体行动可以修复全球性环境损害——这也许是人类环保史上最鼓舞人心的故事"
+
+  consequences:
+    - id: ozone_depletion_global
+      description_zh: CFC导致全球臭氧层大规模耗损，南极出现臭氧空洞
+      description_en: CFCs caused massive ozone depletion and the Antarctic ozone hole
+      type: 负面
+      domain: 环境
+      scale: 全球
+      ongoing: true
+
+    - id: montreal_protocol_success
+      description_zh: 蒙特利尔议定书成为人类史上最成功的全球环保条约
+      description_en: Montreal Protocol became the most successful global environmental treaty
+      type: 正面
+      domain: 国际合作
+      scale: 全球
+      ongoing: true
+
+    - id: super_greenhouse_effect
+      description_zh: CFC作为超级温室气体——单分子温室效应远超CO₂
+      description_en: CFCs are super greenhouse gases — far more potent per molecule than CO₂
+      type: 负面
+      domain: 气候
+      scale: 全球
+      ongoing: true
+
+    - id: midgley_legacy_infamy
+      description_zh: 米基利被称为"对大气层影响最大的单个有机体"——同时发明了含铅汽油和CFC
+      description_en: Midgley called 'most destructive single organism in Earth's history'
+      type: 讽刺
+      domain: 科学史
+      scale: 全球
+
+  causal_chains:
+    # 化合物 → 事件
+    - source: cfc
+      target: toxic_refrigerant_accidents
+      type: ENABLED
+      drama_score: 0.65
+      irony_level: 0.60
+      description_zh: "早期致命制冷剂催生了对'安全替代品'的需求——没人预料到解决方案比问题更可怕"
+      domains: [工业安全, 化学]
+
+    - source: cfc
+      target: midgley_demo_1930
+      type: ENABLED
+      drama_score: 0.80
+      irony_level: 0.92
+      description_zh: "当众吸入CFC证明它'完全安全'——半个世纪后人类发现它在头顶撕开了一个洞"
+      description_en: "Publicly inhaled to prove safety — decades later found to tear a hole in the sky"
+      domains: [工业, 科学]
+
+    - source: cfc
+      target: freon_mass_production
+      type: ENABLED
+      drama_score: 0.70
+      irony_level: 0.50
+      description_zh: "城市法规指定CFC为公共建筑唯一合法制冷剂——因为它'最安全'"
+      domains: [工业, 法律]
+
+    - source: cfc
+      target: peak_cfc_production
+      type: ENABLED
+      drama_score: 0.75
+      irony_level: 0.65
+      description_zh: "年产百万吨，年销十亿美元——CFC帝国在荣光顶点坠落"
+      domains: [工业, 经济]
+
+    - source: cfc
+      target: rowland_molina_paper_1974
+      type: ENABLED
+      drama_score: 0.95
+      irony_level: 0.90
+      description_zh: "CFC最大的优点（化学惰性）正是它最可怕的缺陷——惰性让它活到平流层被紫外线撕裂，释放出催化臭氧分解的氯原子"
+      description_en: "CFC's greatest strength (inertness) was its most destructive flaw"
+      domains: [科学, 化学]
+
+    - source: rowland_molina_paper_1974
+      target: industry_attacks_scientists
+      type: CAUSED
+      drama_score: 0.80
+      irony_level: 0.75
+      description_zh: "科学家vs化工巨头——杜邦的专利即将到期时突然'发现良心'"
+      domains: [政治, 工业, 科学]
+
+    - source: rowland_molina_paper_1974
+      target: ozone_hole_discovered
+      type: ENABLED
+      drama_score: 0.92
+      irony_level: 0.55
+      description_zh: "11年后理论被壮观地证实——南极上空的臭氧层每年春季几乎消失"
+      domains: [科学, 环境]
+      time_lag_years: 11
+
+    - source: ozone_hole_discovered
+      target: montreal_protocol_1987
+      type: CAUSED
+      drama_score: 0.90
+      irony_level: 0.40
+      description_zh: "震惊世界的臭氧空洞照片在两年内促成了史上最成功的全球环保条约"
+      domains: [国际法, 环境]
+      time_lag_years: 2
+
+    - source: dupont_reversal_1986
+      target: montreal_protocol_1987
+      type: ENABLED
+      drama_score: 0.82
+      irony_level: 0.88
+      description_zh: "CFC最大的生产商——杜邦——手握替代品专利后立场180度反转：从反对禁令到推动禁令"
+      description_en: "DuPont reversed stance once they had patent for replacement chemicals"
+      domains: [工业, 政治]
+
+    - source: montreal_protocol_1987
+      target: ozone_recovery_2018
+      type: CAUSED
+      drama_score: 0.85
+      irony_level: 0.30
+      description_zh: "人类史上罕见的好消息：集体行动确实可以修复全球性环境损害"
+      domains: [环境, 国际合作]
+      time_lag_years: 31
+
+    # 事件 → 后果
+    - source: ozone_hole_discovered
+      target: ozone_depletion_global
+      type: CAUSED
+      drama_score: 0.90
+      irony_level: 0.70
+      description_zh: "无毒、不燃、化学惰性的'完美'制冷剂在地球上空撕开了一个洞"
+      domains: [环境, 化学]
+
+    - source: montreal_protocol_1987
+      target: montreal_protocol_success
+      type: CAUSED
+      drama_score: 0.80
+      irony_level: 0.30
+      description_zh: "科学 → 公众觉醒 → 国际合作 → 修复——环保问题应该怎么解决的教科书案例"
+      domains: [国际合作, 环境]
+
+    # 讽刺反转链
+    - source: midgley_demo_1930
+      target: midgley_legacy_infamy
+      type: IRONIC_TWIST
+      drama_score: 0.95
+      irony_level: 0.98
+      description_zh: "当众吸入气体向世界炫耀'安全'的人，同时也发明了含铅汽油——一人造成了两场全球性环境灾难"
+      description_en: "The man who publicly inhaled CFC to show safety also invented leaded gasoline — one person, two global environmental disasters"
+      domains: [科学史, 环境]
+
+    - source: ozone_depletion_global
+      target: montreal_protocol_success
+      type: IRONIC_TWIST
+      drama_score: 0.88
+      irony_level: 0.75
+      description_zh: "人类造成的最大大气灾难催生了人类最成功的国际合作——CFC的故事同时是人类最愚蠢和最伟大的时刻"
+      domains: [环境, 国际合作]
+
+  cross_connections:
+    - target_compound: plastics
+      relationship_zh: "石化工业双胞胎灾难：CFC捅破天，塑料堵塞地"
+      connection_type: 同属环保危机
+
+    - target_compound: synthetic_ammonia
+      relationship_zh: "三个争议性诺贝尔奖的讽刺链"
+      connection_type: 诺贝尔讽刺
+
+    - target_compound: ddt
+      relationship_zh: "都是被誉为'安全奇迹'后造成全球环境灾难的化学品"
+      connection_type: 安全悖论

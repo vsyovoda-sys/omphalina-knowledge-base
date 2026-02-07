@@ -1,0 +1,279 @@
+# 青霉素故事线 — 基于 encyclopedia/compounds/penicillin.md 提取
+# 戏剧性历史节点 + 因果网络 + 评分
+
+compound:
+  id: penicillin
+  name_zh: 青霉素
+  name_en: Penicillin
+  aliases_zh: [青霉素, 盘尼西林, 青黴素]
+  category: 药物/抗生素
+  year_invented: 1928
+  formula: R-C₉H₁₁N₂O₄S
+  safety_note: "本条目仅讨论历史和社会影响，不涉及合成方法或临床用法"
+
+  people:
+    - id: alexander_fleming
+      name_zh: 亚历山大·弗莱明
+      name_en: Alexander Fleming
+      role: 偶然发现青霉菌杀菌作用的苏格兰医生
+      nationality: 英国（苏格兰）
+      year: 1928
+      nobel_year: 1945
+      irony_note: "发现了改变世界的药物却无法说服任何人它很重要——青霉素在抽屉里沉睡了十年"
+
+    - id: howard_florey
+      name_zh: 霍华德·弗洛里
+      name_en: Howard Florey
+      role: 领导牛津团队纯化青霉素，推动其量产
+      nationality: 澳大利亚
+      year: 1940
+      nobel_year: 1945
+      irony_note: "拒绝为青霉素申请专利——被告知'这样做不道德'——结果专利被美国人拿去了"
+
+    - id: ernst_chain
+      name_zh: 恩斯特·鲍里斯·钱恩
+      name_en: Ernst Boris Chain
+      role: 在牛津纯化出青霉素活性成分的德裔犹太化学家
+      nationality: 德国→英国
+      year: 1940
+      nobel_year: 1945
+      irony_note: "因犹太身份逃离纳粹德国，在英国发现了拯救盟军的药物——用德国的敌人英国的实验室"
+
+    - id: dorothy_hodgkin
+      name_zh: 多萝西·霍奇金
+      name_en: Dorothy Crowfoot Hodgkin
+      role: 用X射线晶体学确定了青霉素的化学结构
+      nationality: 英国
+      year: 1945
+      nobel_year: 1964
+      irony_note: "青霉素分子结构之争持续多年，一位女晶体学家用X射线一锤定音——然后获得了诺贝尔化学奖"
+
+  events:
+    - id: fleming_accidental_discovery
+      name_zh: 弗莱明偶然发现培养皿上的霉菌杀死了葡萄球菌
+      name_en: Fleming's accidental discovery of penicillin mould killing bacteria
+      year: 1928
+      domain: 科学
+      scale: 全球
+      location: 英国伦敦圣玛丽医院
+      quote: "1928年9月3日，度假归来的弗莱明注意到一个被污染的培养皿上，霉菌周围出现了细菌的'空白区'"
+      source_ref: "encyclopedia/compounds/penicillin.md ## History"
+
+    - id: decade_of_neglect
+      name_zh: 青霉素被发现后沉寂十年——弗莱明无法说服任何人
+      name_en: Penicillin ignored for a decade after discovery
+      year: 1929
+      end_year: 1939
+      domain: 科学
+      scale: 个人
+      quote: "弗莱明无法纯化足够的青霉素来证明其临床价值，药物开发看起来'不可能'"
+
+    - id: oxford_team_purification
+      name_zh: 弗洛里和钱恩在牛津纯化青霉素并证明临床疗效
+      name_en: Florey and Chain purify penicillin at Oxford, prove clinical efficacy
+      year: 1940
+      domain: 科学/医学
+      scale: 全球
+      location: 英国牛津
+      quote: "1941年第一位病人——警察Albert Alexander：病情好转，然后青霉素用完了，他死了"
+
+    - id: first_patient_dies
+      name_zh: 第一位青霉素病人好转后因药物耗尽而死亡
+      name_en: First penicillin patient improves then dies when supply runs out
+      year: 1941
+      domain: 医学
+      scale: 个人
+      location: 英国牛津
+      quote: "药有效了——但产量太少。Albert Alexander眼看着要康复，却因为青霉素不够而死去"
+
+    - id: mouldy_cantaloupe_peoria
+      name_zh: 一颗发霉的哈密瓜改变了青霉素量产的命运
+      name_en: A mouldy cantaloupe from Peoria market transforms penicillin production
+      year: 1943
+      domain: 工业
+      scale: 全球
+      location: 美国伊利诺伊州皮奥里亚
+      quote: "实验员Mary Hunt在超市捡到一颗长满青霉的哈密瓜——这个菌株的产量是弗莱明原始菌株的6倍"
+
+    - id: dday_penicillin
+      name_zh: 诺曼底登陆时盟军携带230万剂青霉素
+      name_en: 2.3 million doses of penicillin ready for D-Day
+      year: 1944
+      domain: 军事/医学
+      scale: 全球
+      location: 法国诺曼底
+      quote: "從一颗能治一个人创伤感染都不够的培养皿，到D-Day时230万剂——仅四年时间"
+      source_ref: "encyclopedia/compounds/penicillin.md ## Mass production"
+
+    - id: urine_recycling
+      name_zh: 青霉素如此珍贵——医生从病人尿液中回收再利用
+      name_en: Penicillin so precious that doctors recycled it from patients' urine
+      year: 1943
+      domain: 医学
+      scale: 全球
+      quote: "80%的青霉素在3-4小时内被肾脏排出——它太珍贵了，所以医生收集病人的尿来回收"
+
+    - id: nobel_1945
+      name_zh: 弗莱明、弗洛里、钱恩共享1945年诺贝尔生理学或医学奖
+      name_en: Fleming, Florey and Chain share 1945 Nobel Prize
+      year: 1945
+      domain: 科学
+      scale: 全球
+      quote: "三人共享诺贝尔奖——但弗洛里拒绝申请专利，被告知'不道德'"
+
+    - id: antibiotic_resistance_crisis
+      name_zh: 抗生素耐药性成为21世纪全球健康威胁
+      name_en: Antibiotic resistance becomes a 21st century global health threat
+      year: 1940
+      end_year: 2026
+      domain: 医学
+      scale: 全球
+      quote: "弗莱明在诺贝尔演讲中就警告过：不当使用会导致耐药性。他的预言不幸成真"
+
+  consequences:
+    - id: saved_millions_wwii
+      description_zh: 二战中青霉素挽救了约12-15%的盟军伤亡人命
+      description_en: Penicillin saved an estimated 12-15% of Allied casualties in WWII
+      type: 正面
+      domain: 军事/医学
+      scale: 全球
+      quantifier: "12-15%伤亡率下降"
+
+    - id: antibiotic_era_begins
+      description_zh: 开启了抗生素时代——人类平均寿命显著延长
+      description_en: Launched the antibiotic era — significantly extending human life expectancy
+      type: 正面
+      domain: 医学
+      scale: 全球
+      ongoing: true
+
+    - id: mrsa_superbugs
+      description_zh: 过度使用导致MRSA等超级细菌出现——抗生素军备竞赛
+      description_en: Overuse created MRSA superbugs — an antimicrobial arms race
+      type: 讽刺
+      domain: 医学
+      scale: 全球
+      ongoing: true
+      quantifier: "2000+种β-内酰胺酶"
+
+    - id: patent_ethics_debate
+      description_zh: 弗洛里拒绝专利→美国企业获得量产专利→引发药物专利伦理辩论
+      description_en: Florey refused patent → US firms patented production methods → drug patent ethics debate
+      type: 讽刺
+      domain: 法律/伦理
+      scale: 全球
+
+  causal_chains:
+    # 化合物 → 事件
+    - source: penicillin
+      target: fleming_accidental_discovery
+      type: ENABLED
+      drama_score: 0.90
+      irony_level: 0.50
+      description_zh: "科学史上最著名的意外之一——一个度假归来未洗的培养皿改变了医学史"
+      description_en: "One of science's most famous accidents — an unwashed petri dish changed medical history"
+      domains: [科学, 医学]
+
+    - source: fleming_accidental_discovery
+      target: decade_of_neglect
+      type: CAUSED
+      drama_score: 0.75
+      irony_level: 0.70
+      description_zh: "发现了能改变世界的药物，却没人觉得值得研究——青霉素被搁置了十年"
+      domains: [科学]
+      time_lag_years: 10
+
+    - source: penicillin
+      target: oxford_team_purification
+      type: ENABLED
+      drama_score: 0.85
+      irony_level: 0.40
+      description_zh: "十年后牛津团队从弗莱明的'不可能'中提取出了临床奇迹"
+      domains: [科学, 医学]
+      time_lag_years: 12
+
+    - source: oxford_team_purification
+      target: first_patient_dies
+      type: CAUSED
+      drama_score: 0.92
+      irony_level: 0.85
+      description_zh: "药有效了——但Albert Alexander还是死了，因为产量太少。药效和产量的残酷赛跑"
+      description_en: "The drug worked — but the patient died because supply ran out"
+      domains: [医学]
+
+    - source: penicillin
+      target: mouldy_cantaloupe_peoria
+      type: ENABLED
+      drama_score: 0.85
+      irony_level: 0.75
+      description_zh: "拯救人类的药物菌株来自一颗超市里的烂哈密瓜——产量是弗莱明原始菌株的6倍"
+      description_en: "The strain that saved humanity came from a rotten cantaloupe in a supermarket"
+      domains: [工业, 生物学]
+
+    - source: mouldy_cantaloupe_peoria
+      target: dday_penicillin
+      type: ENABLED
+      drama_score: 0.90
+      irony_level: 0.45
+      description_zh: "从实验室的微量到诺曼底的230万剂——医学和工程的完美冲刺"
+      domains: [军事, 工业, 医学]
+      time_lag_years: 1
+
+    - source: penicillin
+      target: urine_recycling
+      type: ENABLED
+      drama_score: 0.80
+      irony_level: 0.80
+      description_zh: "青霉素珍贵到需要从病人尿液中回收——80%会在3-4小时内被肾脏排出"
+      domains: [医学]
+
+    - source: penicillin
+      target: nobel_1945
+      type: ENABLED
+      drama_score: 0.70
+      irony_level: 0.55
+      description_zh: "三人共享诺贝尔奖，但关于'谁才是真正的发现者'的争论至今未息"
+      domains: [科学]
+
+    # 事件 → 后果
+    - source: dday_penicillin
+      target: saved_millions_wwii
+      type: CAUSED
+      drama_score: 0.88
+      irony_level: 0.30
+      description_zh: "青霉素在战场上首次大规模使用——感染伤口的死亡率断崖式下降"
+      domains: [军事, 医学]
+
+    - source: oxford_team_purification
+      target: antibiotic_era_begins
+      type: CAUSED
+      drama_score: 0.85
+      irony_level: 0.40
+      description_zh: "青霉素打开了抗生素时代——人类第一次可以系统性地战胜细菌感染"
+      domains: [医学]
+
+    - source: antibiotic_era_begins
+      target: mrsa_superbugs
+      type: IRONIC_TWIST
+      drama_score: 0.90
+      irony_level: 0.90
+      description_zh: "拯救了无数生命的抗生素正在失效——细菌的进化速度超过了人类研发新药的速度"
+      description_en: "The antibiotics that saved millions are failing — bacteria evolve faster than we develop new drugs"
+      domains: [医学, 进化]
+
+    - source: nobel_1945
+      target: patent_ethics_debate
+      type: IRONIC_TWIST
+      drama_score: 0.75
+      irony_level: 0.80
+      description_zh: "弗洛里因'道德'拒绝专利，结果被美国企业拿去赚了数十亿——至今仍是药物伦理辩论的焦点"
+      domains: [法律, 伦理, 医学]
+
+  cross_connections:
+    - target_compound: aspirin
+      relationship_zh: "药物发现的两种范式：化学合成 vs 自然发现"
+      connection_type: 药物范式对比
+
+    - target_compound: ddt
+      relationship_zh: "二战同时催化了两者的量产——青霉素救治伤兵，DDT保护军人免受疟疾"
+      connection_type: 战争催化

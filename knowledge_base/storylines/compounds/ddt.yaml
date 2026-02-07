@@ -1,0 +1,301 @@
+# DDT故事线 — 基于 encyclopedia/compounds/ddt.md 提取
+# 戏剧性历史节点 + 因果网络 + 评分
+
+compound:
+  id: ddt
+  name_zh: 滴滴涕
+  name_en: DDT (Dichlorodiphenyltrichloroethane)
+  aliases_zh: [滴滴涕, DDT, 双对氯苯基三氯乙烷]
+  category: 农药/杀虫剂
+  year_invented: 1939
+  formula: (ClC₆H₄)₂CH(CCl₃)
+  cas_number: "50-29-3"
+  safety_note: "本条目仅讨论历史和社会影响，不涉及合成方法或使用指导"
+
+  people:
+    - id: paul_mueller
+      name_zh: 保罗·赫尔曼·穆勒
+      name_en: Paul Hermann Müller
+      role: 发现DDT杀虫活性的瑞士化学家
+      nationality: 瑞士
+      year: 1939
+      nobel_year: 1948
+      irony_note: "因'发现DDT对节肢动物的高效接触毒性'获诺贝尔奖——24年后DDT在美国被禁"
+
+    - id: rachel_carson
+      name_zh: 蕾切尔·卡森
+      name_en: Rachel Carson
+      role: 《寂静的春天》作者，现代环保运动之母
+      nationality: 美国
+      year: 1962
+      irony_note: "一位海洋生物学家用一本书推翻了一个诺贝尔奖的遗产，催生了整个环保运动"
+
+    - id: othmar_zeidler
+      name_zh: 奥特马尔·蔡德勒
+      name_en: Othmar Zeidler
+      role: 1874年首次合成DDT的奥地利化学家
+      nationality: 奥地利
+      year: 1874
+      irony_note: "合成了DDT却完全没有意识到它的杀虫特性——这个分子在抽屉里沉睡了65年"
+
+    - id: victor_yannacone
+      name_zh: 维克多·扬纳科内
+      name_en: Victor Yannacone
+      role: 环保律师，环境保护基金会(EDF)联合创始人
+      nationality: 美国
+      year: 1967
+      irony_note: "一个律师用法庭而非实验室改变了化学品监管的历史"
+
+  events:
+    - id: ddt_first_synthesis_1874
+      name_zh: 蔡德勒首次合成DDT——然后被遗忘65年
+      name_en: Zeidler first synthesizes DDT — then forgotten for 65 years
+      year: 1874
+      domain: 化学
+      scale: 个人
+      location: 奥地利
+      quote: "一个化学博士生合成了一种将改变世界的分子，但他和全世界一样，完全没有意识到"
+      source_ref: "encyclopedia/compounds/ddt.md ## History"
+
+    - id: mueller_discovers_insecticide_1939
+      name_zh: 穆勒发现DDT的强力杀虫活性
+      name_en: Müller discovers DDT's potent insecticidal properties
+      year: 1939
+      domain: 化学
+      scale: 全球
+      location: 瑞士巴塞尔
+      quote: "距首次合成65年后，一位瑞士科学家终于发现了这个分子的超能力"
+
+    - id: wwii_malaria_typhus_control
+      name_zh: 二战中DDT拯救数百万军人和平民免于疟疾和斑疹伤寒
+      name_en: DDT saves millions from malaria and typhus in WWII
+      year: 1943
+      end_year: 1945
+      domain: 军事/公共卫生
+      scale: 全球
+      quote: "盟军在南太平洋空中喷洒DDT，效果堪称壮观——疟疾和登革热的发病率断崖式下降"
+
+    - id: mueller_nobel_1948
+      name_zh: 穆勒获1948年诺贝尔生理学或医学奖
+      name_en: Müller awarded 1948 Nobel Prize in Physiology or Medicine
+      year: 1948
+      domain: 科学
+      scale: 全球
+      quote: "表彰他'发现DDT作为多种节肢动物的接触毒物的高效性'"
+
+    - id: who_malaria_eradication_1955
+      name_zh: WHO发起全球疟疾根除计划，严重依赖DDT
+      name_en: WHO launches global malaria eradication program relying heavily on DDT
+      year: 1955
+      domain: 公共卫生
+      scale: 全球
+      quote: "该计划成功消灭了北美、欧洲、苏联等地区的疟疾，但在热带地区失败了"
+
+    - id: silent_spring_1962
+      name_zh: 蕾切尔·卡森出版《寂静的春天》
+      name_en: Rachel Carson publishes Silent Spring
+      year: 1962
+      domain: 文化/环境
+      scale: 全球
+      location: 美国
+      quote: "这本书引发了公众的强烈反响，启动了现代环保运动——虽然卡森从未直接呼吁全面禁止DDT"
+      source_ref: "encyclopedia/compounds/ddt.md ## History"
+
+    - id: bald_eagle_near_extinction
+      name_zh: DDT导致白头海雕（美国国鸟）和游隼濒临灭绝
+      name_en: DDT drives bald eagle and peregrine falcon to near extinction
+      year: 1960
+      end_year: 1972
+      domain: 生态
+      scale: 国家
+      location: 美国
+      quote: "DDT的代谢产物DDE使猛禽蛋壳变薄至无法孵化——美国国鸟差点因一种杀虫剂灭绝"
+
+    - id: edf_founded_lawsuit_1967
+      name_zh: 环境保护基金会(EDF)成立并起诉DDT使用
+      name_en: Environmental Defense Fund founded to sue against DDT
+      year: 1967
+      domain: 法律
+      scale: 国家
+      location: 美国纽约
+      quote: "一场鱼类死亡事件促成了世界上第一个环保法律组织的诞生"
+
+    - id: us_ban_1972
+      name_zh: 美国禁止农业使用DDT
+      name_en: US bans agricultural use of DDT
+      year: 1972
+      domain: 法律/环境
+      scale: 国家
+      location: 美国
+      quote: "EPA署长Ruckelshaus取消了DDT的大部分使用许可——但公共卫生豁免保留"
+
+    - id: stockholm_convention_2004
+      name_zh: 斯德哥尔摩公约全球禁止DDT农业使用
+      name_en: Stockholm Convention globally restricts DDT
+      year: 2004
+      domain: 国际法
+      scale: 全球
+      quote: "170+国家签署——但公共卫生用途豁免保留，因为在某些疟疾流行区仍无替代品"
+
+  consequences:
+    - id: environmental_movement_born
+      description_zh: 《寂静的春天》催生了现代环保运动和环保立法
+      description_en: Silent Spring catalyzed the modern environmental movement
+      type: 正面
+      domain: 环境/政治
+      scale: 全球
+      ongoing: true
+
+    - id: eggshell_thinning_wildlife
+      description_zh: DDT及DDE导致猛禽蛋壳变薄，多个物种濒临灭绝
+      description_en: DDT/DDE caused eggshell thinning, driving raptors to near extinction
+      type: 负面
+      domain: 生态
+      scale: 全球
+      quantifier: "白头海雕、游隼、鹗、褐鹈鹕"
+
+    - id: malaria_resurgence
+      description_zh: DDT禁令争议——撤除喷洒后部分热带地区疟疾反弹
+      description_en: Malaria resurged in some tropical regions after DDT spraying was curtailed
+      type: 讽刺
+      domain: 公共卫生
+      scale: 全球
+      ongoing: true
+
+    - id: persistent_pollution
+      description_zh: DDT在环境中持久存在——2018年研究仍在欧洲土壤和西班牙河流中检出
+      description_en: DDT residues persist in environment decades after ban
+      type: 负面
+      domain: 环境
+      scale: 全球
+      ongoing: true
+      quantifier: "土壤半衰期22天至30年"
+
+  causal_chains:
+    # 化合物 → 事件
+    - source: ddt
+      target: ddt_first_synthesis_1874
+      type: ENABLED
+      drama_score: 0.60
+      irony_level: 0.50
+      description_zh: "一个沉睡65年的发明——合成它的人完全不知道它有什么用"
+      domains: [化学]
+
+    - source: ddt
+      target: mueller_discovers_insecticide_1939
+      type: ENABLED
+      drama_score: 0.80
+      irony_level: 0.35
+      description_zh: "65年后被重新发现的杀虫超能力"
+      domains: [化学, 农业]
+      time_lag_years: 65
+
+    - source: ddt
+      target: wwii_malaria_typhus_control
+      type: ENABLED
+      drama_score: 0.90
+      irony_level: 0.60
+      description_zh: "DDT成为二战中的隐形英雄——保护了数百万军人免于热带疾病"
+      domains: [军事, 公共卫生]
+      time_lag_years: 4
+
+    - source: ddt
+      target: mueller_nobel_1948
+      type: ENABLED
+      drama_score: 0.85
+      irony_level: 0.90
+      description_zh: "因'造福人类'获诺贝尔奖——24年后被美国禁用，56年后被全球禁止"
+      description_en: "Nobel for 'benefiting humanity' — banned 24 years later, globally restricted 56 years later"
+      domains: [科学, 讽刺]
+      time_lag_years: 9
+
+    - source: ddt
+      target: who_malaria_eradication_1955
+      type: ENABLED
+      drama_score: 0.80
+      irony_level: 0.70
+      description_zh: "DDT成了WHO消灭疟疾的主要武器——但蚊子很快进化出抗药性"
+      domains: [公共卫生]
+
+    - source: ddt
+      target: bald_eagle_near_extinction
+      type: CAUSED
+      drama_score: 0.92
+      irony_level: 0.88
+      description_zh: "保护人类健康的杀虫剂几乎杀死了美国国鸟——DDT沿食物链富集到猛禽体内"
+      description_en: "The insecticide that protected humans nearly killed America's national bird"
+      domains: [生态, 化学]
+
+    - source: rachel_carson
+      target: silent_spring_1962
+      type: ENABLED
+      drama_score: 0.95
+      irony_level: 0.70
+      description_zh: "一本书改变了世界——一位海洋生物学家对抗整个化工产业"
+      domains: [文化, 环境, 科学]
+
+    - source: silent_spring_1962
+      target: us_ban_1972
+      type: CAUSED
+      drama_score: 0.88
+      irony_level: 0.65
+      description_zh: "从畅销书到法律——十年内从公众觉醒到政府行动"
+      domains: [法律, 环境]
+      time_lag_years: 10
+
+    - source: us_ban_1972
+      target: stockholm_convention_2004
+      type: ENABLED
+      drama_score: 0.75
+      irony_level: 0.55
+      description_zh: "美国带头禁令推动了全球性约束——但留下了疟疾控制的豁免悖论"
+      domains: [国际法, 环境]
+      time_lag_years: 32
+
+    # 事件 → 后果
+    - source: silent_spring_1962
+      target: environmental_movement_born
+      type: CAUSED
+      drama_score: 0.90
+      irony_level: 0.55
+      description_zh: "一本书催生了一场运动——EPA的建立、《濒危物种法》都可追溯到此"
+      domains: [文化, 政治, 环境]
+
+    - source: bald_eagle_near_extinction
+      target: eggshell_thinning_wildlife
+      type: CAUSED
+      drama_score: 0.88
+      irony_level: 0.80
+      description_zh: "化学品在食物链中的生物放大效应——DDT浓度在猛禽体内放大了上百万倍"
+      domains: [生态, 化学]
+
+    # 讽刺反转链
+    - source: mueller_nobel_1948
+      target: us_ban_1972
+      type: IRONIC_TWIST
+      drama_score: 0.92
+      irony_level: 0.95
+      description_zh: "诺贝尔奖的化合物被发奖国所在大洲纷纷禁用——科学荣誉与环境灾难的极致碰撞"
+      description_en: "The Nobel-winning compound was banned by country after country"
+      domains: [科学, 法律, 环境]
+
+    - source: wwii_malaria_typhus_control
+      target: malaria_resurgence
+      type: IRONIC_TWIST
+      drama_score: 0.85
+      irony_level: 0.88
+      description_zh: "禁掉DDT后疟疾在部分地区反弹——引发'为了鸟还是为了人'的伦理争论"
+      domains: [公共卫生, 伦理]
+
+  cross_connections:
+    - target_compound: synthetic_ammonia
+      relationship_zh: "同属双用途：农业/军事的双面刃"
+      connection_type: 同属双用途
+
+    - target_compound: penicillin
+      relationship_zh: "二战同时催化了两者的量产——命运却截然不同"
+      connection_type: 战争催化
+
+    - target_compound: msg
+      relationship_zh: "都经历了'先追捧后恐慌'的命运，但结局不同"
+      connection_type: 先追捧后质疑

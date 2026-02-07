@@ -1,0 +1,239 @@
+# 阿司匹林故事线 — 基于 encyclopedia/compounds/aspirin.md 提取
+# 戏剧性历史节点 + 因果网络 + 评分
+
+compound:
+  id: aspirin
+  name_zh: 阿司匹林
+  name_en: Aspirin (Acetylsalicylic Acid)
+  aliases_zh: [阿司匹林, 阿斯匹灵, 乙酰水杨酸]
+  category: 药物
+  year_invented: 1897
+  formula: C₉H₈O₄
+  cas_number: "50-78-2"
+  safety_note: "本条目仅讨论历史和社会影响，不涉及合成方法或配方"
+
+  people:
+    - id: felix_hoffmann
+      name_zh: 费利克斯·霍夫曼
+      name_en: Felix Hoffmann
+      role: 拜耳化学家，1897年合成纯化乙酰水杨酸
+      nationality: 德国
+      year: 1897
+      irony_note: "同一个人在两周内合成了阿司匹林和海洛因——一个救人，一个毁人"
+
+    - id: arthur_eichengruen
+      name_zh: 阿图尔·艾兴格林
+      name_en: Arthur Eichengrün
+      role: 拜耳研究主管，声称是阿司匹林真正的推动者
+      nationality: 德国（犹太裔）
+      irony_note: "纳粹时期被关入集中营，功劳被归于'雅利安人'霍夫曼"
+
+    - id: hippocrates
+      name_zh: 希波克拉底
+      name_en: Hippocrates
+      role: 古希腊医学之父，公元前400年记录柳树皮止痛
+      birth_year: -460
+      death_year: -370
+
+    - id: john_vane
+      name_zh: 约翰·罗伯特·韦恩
+      name_en: John Robert Vane
+      role: 发现阿司匹林抑制前列腺素的机制
+      nobel_year: 1982
+      nationality: 英国
+
+  events:
+    - id: willow_bark_ancient
+      name_zh: 柳树皮药用的古老历史——从苏美尔到希波克拉底
+      name_en: Ancient use of willow bark as medicine
+      year: -2400
+      end_year: -400
+      domain: 医学
+      scale: 区域
+      quote: "公元前2400年的苏美尔泥板已记录柳树皮的止痛用途"
+      source_ref: "encyclopedia/compounds/aspirin.md ## 发现与早期历史"
+
+    - id: bayer_synthesis_1897
+      name_zh: 拜耳公司实验室合成阿司匹林
+      name_en: Bayer synthesizes aspirin
+      year: 1897
+      domain: 工业
+      scale: 全球
+      location: 德国伍珀塔尔
+      quote: "霍夫曼在两周内先后合成了阿司匹林和海洛因"
+
+    - id: bayer_heroin_same_lab
+      name_zh: 同一实验室、同一时期合成海洛因
+      name_en: Heroin synthesized in same Bayer lab
+      year: 1898
+      domain: 医学
+      scale: 全球
+      quote: "拜耳将海洛因作为'不上瘾的吗啡替代品'销售"
+
+    - id: aspirin_trademark_lost
+      name_zh: 一战后拜耳失去"Aspirin"美国商标
+      name_en: Bayer loses Aspirin trademark in US after WWI
+      year: 1919
+      domain: 法律
+      scale: 国家
+      location: 美国
+      quote: "作为凡尔赛条约战争赔偿的一部分，Aspirin在美国变为通用名"
+
+    - id: reye_syndrome_warning
+      name_zh: 发现儿童使用阿司匹林与瑞氏综合征的关联
+      name_en: Link between aspirin and Reye's syndrome in children
+      year: 1963
+      domain: 医学
+      scale: 全球
+      quote: "最安全的药物之一被发现对儿童可能致命"
+
+    - id: vane_mechanism_discovery
+      name_zh: 韦恩发现阿司匹林抑制前列腺素的机制
+      name_en: Vane discovers aspirin inhibits prostaglandin synthesis
+      year: 1971
+      domain: 科学
+      scale: 全球
+      quote: "使用了70年后，人类才搞清楚这个药到底是怎么起作用的"
+
+    - id: heart_attack_prevention
+      name_zh: 低剂量阿司匹林被发现可预防心脏病
+      name_en: Low-dose aspirin for heart attack prevention
+      year: 1988
+      domain: 医学
+      scale: 全球
+      quote: "止痛药变身心血管救星"
+
+  consequences:
+    - id: aspirin_global_consumption
+      description_zh: 全球每年消费超过1000亿片阿司匹林
+      description_en: Over 100 billion aspirin tablets consumed annually worldwide
+      type: 正面
+      domain: 医学
+      scale: 全球
+      ongoing: true
+      quantifier: "1000亿片/年"
+
+    - id: heroin_epidemic
+      description_zh: 海洛因（同一实验室产物）引发全球成瘾危机
+      description_en: Heroin (from same lab) caused global addiction crisis
+      type: 讽刺
+      domain: 社会
+      scale: 全球
+      ongoing: true
+
+    - id: eichengruen_erasure
+      description_zh: 犹太科学家艾兴格林的贡献被纳粹抹去
+      description_en: Jewish scientist Eichengrün's contribution erased by Nazis
+      type: 讽刺
+      domain: 文化
+      scale: 个人
+
+    - id: reye_children_deaths
+      description_zh: 儿童因服用阿司匹林引发瑞氏综合征死亡
+      description_en: Children died from Reye's syndrome linked to aspirin
+      type: 负面
+      domain: 医学
+      scale: 全球
+
+  causal_chains:
+    # 化合物 → 事件
+    - source: aspirin
+      target: willow_bark_ancient
+      type: ENABLED
+      drama_score: 0.70
+      irony_level: 0.30
+      description_zh: "4400年的药用史——人类最古老的药物之一"
+      description_en: "4400 years of medicinal use"
+      domains: [医学, 历史]
+
+    - source: aspirin
+      target: bayer_synthesis_1897
+      type: ENABLED
+      drama_score: 0.80
+      irony_level: 0.60
+      description_zh: "工业化学让古老的柳树皮智慧变成小药片"
+      domains: [化学工业, 医学]
+
+    - source: aspirin
+      target: bayer_heroin_same_lab
+      type: ENABLED
+      drama_score: 0.95
+      irony_level: 0.98
+      description_zh: "同一个化学家、同一间实验室、相隔两周：一个成为人类最常用的药物，一个成为最臭名昭著的毒品"
+      description_en: "Same chemist, same lab, two weeks apart: one became humanity's most used medicine, the other its most infamous drug"
+      domains: [化学工业, 医学, 社会]
+      time_lag_years: 1
+
+    - source: aspirin
+      target: aspirin_trademark_lost
+      type: ENABLED
+      drama_score: 0.75
+      irony_level: 0.70
+      description_zh: "战争让一个商标名变成了通用名——拜耳在美国永远失去了'Aspirin'"
+      domains: [法律, 战争]
+      time_lag_years: 22
+
+    - source: aspirin
+      target: reye_syndrome_warning
+      type: ENABLED
+      drama_score: 0.85
+      irony_level: 0.80
+      description_zh: "最安全的成人药物之一，却可能杀死儿童"
+      domains: [医学]
+      time_lag_years: 66
+
+    - source: aspirin
+      target: vane_mechanism_discovery
+      type: ENABLED
+      drama_score: 0.80
+      irony_level: 0.65
+      description_zh: "全世界吃了70年才搞清楚它为什么有效"
+      domains: [科学, 医学]
+      time_lag_years: 74
+
+    - source: aspirin
+      target: heart_attack_prevention
+      type: ENABLED
+      drama_score: 0.85
+      irony_level: 0.50
+      description_zh: "一个止痛药意外地成了心脏病的救星"
+      domains: [医学, 科学]
+      time_lag_years: 91
+
+    # 事件 → 后果
+    - source: bayer_heroin_same_lab
+      target: heroin_epidemic
+      type: CAUSED
+      drama_score: 0.98
+      irony_level: 0.99
+      description_zh: "拜耳将海洛因作为'不上瘾的吗啡替代品'推向市场——史上最大的医学营销灾难之一"
+      domains: [医学, 社会]
+
+    - source: bayer_synthesis_1897
+      target: eichengruen_erasure
+      type: CAUSED
+      drama_score: 0.80
+      irony_level: 0.90
+      description_zh: "纳粹政权将犹太科学家的贡献从历史中抹去，功劳归于'雅利安人'"
+      domains: [文化, 政治]
+
+    - source: reye_syndrome_warning
+      target: reye_children_deaths
+      type: CAUSED
+      drama_score: 0.85
+      irony_level: 0.80
+      description_zh: "被认为最安全的药竟然成为儿童的威胁"
+      domains: [医学]
+
+    # 讽刺反转链
+    - source: heroin_epidemic
+      target: aspirin_global_consumption
+      type: IRONIC_TWIST
+      drama_score: 0.90
+      irony_level: 0.95
+      description_zh: "同一间实验室的双胞胎——一个每年被消费1000亿片，另一个被全球禁止"
+
+  cross_connections:
+    - target_compound: penicillin
+      relationship_zh: "药物发现的两种范式：化学合成 vs 生物发现"
+      connection_type: 药物范式对比
