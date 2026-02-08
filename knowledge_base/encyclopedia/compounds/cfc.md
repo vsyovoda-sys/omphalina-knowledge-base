@@ -388,3 +388,34 @@ Normal occupational exposure is rated at 0.07% and does not pose any serious hea
 
 
 == 文內注釋 ==
+
+
+---
+
+## 补充资料 (Additional Sources — 2026-02-08 事实核查补充)
+
+> 来源：ACS Chemical Landmarks、美国国家科学院传记回忆录、UNEP 臭氧秘书处、Vaclav Smil
+> 本节补充 Wikipedia 搬运未充分覆盖的关键事实
+
+### Thomas Midgley Jr. 的完整故事（知识库重要缺漏）
+
+- Thomas Midgley Jr. (1889.05.18 – 1944.11.02) 不仅发明了 CFC，他更早的「成就」是发现四乙基铅（Tetraethyl lead, TEL）作为汽油抗爆添加剂（1921 年），这导致了半个世纪的全球含铅汽油使用，造成了可能是 20 世纪最大规模的慢性中毒事件。
+- **1924 年**：标准石油公司新泽西州工厂 5 名工人在 TEL 生产过程中死亡、多人精神失常。Midgley 本人也因铅中毒需要休假疗养，但他在新闻发布会上故意将 TEL 涂在手上并吸入其蒸气 60 秒以「证明」其安全性。
+- **1928 年**：在通用汽车 Frigidaire 部门的要求下，Midgley 发明了二氯二氟甲烷（R-12，即 Freon-12），并于知名的 ACS 会议上当众吸入 CFC 并吹灭蜡烛以展示其「无毒、不可燃」特性。
+- **1944 年 11 月 2 日**：Midgley 因小儿麻痹症瘫痪卧床，发明了一套绳索和滑轮装置帮助自己起床，结果被绳索缠绕窒息而死，享年 55 岁。
+- 环境历史学家 J.R. McNeill 评价 Midgley 说：「他对大气层的影响超过了历史上任何其他单个有机体」（*Something New Under the Sun*, 2000）。
+- **来源**：Kovarik, B. (2005). "Ethyl-leaded Gasoline." International Journal of Occupational and Environmental Health; McNeill, J.R. (2000). *Something New Under the Sun*. W.W. Norton; Bryson, B. (2003). *A Short History of Nearly Everything*.
+
+### 蒙特利尔议定书的成功
+
+- 1987 年签署、1989 年生效的《蒙特利尔议定书》是人类历史上**唯一一个获得全球所有国家（197 个联合国成员国）批准**的国际环境条约。
+- 截至 2023 年，全球已消除约 **99%** 的臭氧层消耗物质（ODS）的生产和消费。
+- NASA 和 NOAA 观测表明，南极臭氧空洞面积自 2000 年代达到峰值后正在缓慢恢复，预计到 **2066 年**（南极地区）可恢复到 1980 年前的水平。
+- **来源**：UNEP Ozone Secretariat; WMO/UNEP Scientific Assessment of Ozone Depletion: 2022.
+
+### Molina-Rowland 假说与诺贝尔奖
+
+- 1974 年，Mario Molina 和 F. Sherwood Rowland 在 Nature 上发表了 CFC 破坏臭氧层的假说论文。当时遭到工业界强烈反对——杜邦公司（全球最大 CFC 生产商）主席称该研究为「科幻小说」。
+- 1985 年，英国南极调查局的 Joseph Farman 等人在 Nature 上报告发现南极臭氧空洞，证实了 Molina-Rowland 假说。
+- 1995 年，Molina、Rowland 和 Paul Crutzen 共同获诺贝尔化学奖。
+- **来源**：Molina & Rowland (1974). Nature 249:810–812; Farman et al. (1985). Nature 315:207–210; nobelprize.org.

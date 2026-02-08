@@ -14,7 +14,7 @@
 | **中文名** | 青霉素 |
 | **英文名** | Penicillin |
 | **分子式** | R-C₉H₁₁N₂O₄S (核心结构) |
-| **发现年份** | 1928 (Fleming 发现), 1940 (Florey/Chain 纯化), 1942 (工业化) |
+| **发现年份** | 1928 (Fleming 发现), 1940 (Florey/Chain 纯化), 1941 (首次临床系统用药), 1943–1944 (工业化量产) |
 | **发现者** | Alexander Fleming |
 | **量产实现者** | Howard Florey, Ernst Boris Chain |
 | **诺贝尔奖** | 1945 生理学或医学奖 (Fleming, Florey, Chain) |
@@ -288,3 +288,31 @@ The final step is a transamidation by isopenicillin N N-acyltransferase, in whic
 
 
 == 参考资料 ==
+
+
+---
+
+## 补充资料 (Additional Sources — 2026-02-08 事实核查补充)
+
+> 来源：诺贝尔奖官网 Fleming/Florey/Chain 传记、ACS Chemical Landmarks、Lancet 论文
+> 本节补充 Wikipedia 搬运未充分覆盖的关键事实
+
+### 「青霉素第一次临床使用」时间线精确化
+
+- **1930 年**：Cecil George Paine（Sheffield Royal Infirmary）是第一个成功使用青霉素精液治疗患者的人——治疗了新生儿的淋球菌眼炎（ophthalmia neonatorum）。但 Paine 未发表结果，此事仅在 1983 年由历史学家 Milton Wainwright 重新发掘。
+- **1941 年 2 月 12 日**：Oxford 团队首次对 Albert Alexander（一位因玫瑰刺感染而继发严重营细胞感染的警察）进行青霉素静脉系统治疗——患者生命体征明显改善，但因青霉素供应耗尽（甚至从患者尿液中回收再利用）而最终去世。这件事情尖锐地揭示了青霉素的核心问题：产量不足。
+- **1943–1944 年**：美国政府与 Pfizer、Merck、Squibb 等制药公司合作，通过深层发酵罐技术（借鉴玉米浸泡液培养基）实现工业化量产。到 1944 年 D-Day（诺曼底登陆）时，已备存足够治疗所有伤亡士兵的青霉素。
+- 将「1942 年工业化」过度简化：1942 年 3 月 Anne Miller 成为美国第一位用青霉素治疗的平民患者，但当时的产量仅够治疗数人，真正工业化是 1943–1944 年的事。
+- **来源**：Wainwright, M. (1987). "The history of the therapeutic use of crude penicillin." Medical History 31:41–50; Lax, E. (2004). *The Mold in Dr. Florey's Coat*. Henry Holt.
+
+### 诺贝尔奖与发现史
+
+- 1945 年诺贝尔生理学或医学奖授予 Alexander Fleming、Howard Florey 和 Ernst Boris Chain，表彰「发现青霉素及其对各种传染病的治疗作用」。
+- Fleming 在诺贝尔奖演讲中警告：「使用不足剂量的青霉素可能导致细菌产生耐药性」——这一预言在 21 世纪已成为全球公共卫生的最大威胁之一。
+- 截至 2019 年，WHO 估计抗菌素耐药性（AMR）每年直接导致 **127 万人死亡**，与 **495 万人死亡相关**。
+- **来源**：nobelprize.org Fleming Nobel Lecture (1945); Murray et al. (2022). "Global burden of bacterial antimicrobial resistance." Lancet 399:629–655.
+
+### 尼安德特人的青霉使用
+
+- 2017 年，阿德莱德大学的研究团队从旧石器时代的尼安德特人牙结石 DNA 中发现了青霉菌属（Penicillium）的基因组及杨树（含水杨酸）的痕迹，表明尼安德特人可能早在约 **48,000 年前**就在意识到发霉食物和树皮的药用价值。
+- **来源**：Weyrich et al. (2017). "Neanderthal behaviour, diet, and disease inferred from ancient DNA in dental calculus." Nature 544:357–361.

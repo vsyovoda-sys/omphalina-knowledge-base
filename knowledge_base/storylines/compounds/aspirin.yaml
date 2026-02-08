@@ -80,12 +80,12 @@ compound:
       quote: "作为凡尔赛条约战争赔偿的一部分，Aspirin在美国变为通用名"
 
     - id: reye_syndrome_warning
-      name_zh: 发现儿童使用阿司匹林与瑞氏综合征的关联
-      name_en: Link between aspirin and Reye's syndrome in children
-      year: 1963
+      name_zh: 流行病学研究建立阿司匹林与儿童瑞氏综合征的统计关联
+      name_en: Epidemiological studies establish statistical link between aspirin and Reye's syndrome in children
+      year: 1980  # 注：1963年是Reye首次描述该综合征，但尚未建立与阿司匹林的关联；1980年CDC等机构首次建立统计关联
       domain: 医学
       scale: 全球
-      quote: "最安全的药物之一被发现对儿童可能致命"
+      quote: "使用了近80年的“最安全药物”被发现对患感冒/水痘的儿童可能致命"
 
     - id: vane_mechanism_discovery
       name_zh: 韦恩发现阿司匹林抑制前列腺素的机制

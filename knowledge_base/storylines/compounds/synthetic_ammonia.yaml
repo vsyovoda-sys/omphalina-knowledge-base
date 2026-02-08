@@ -19,7 +19,7 @@ compound:
       nationality: 德国（犹太裔）
       year: 1909
       nobel_year: 1918
-      irony_note: "喂养了40亿人口，也主导了化学武器——妻子因此自杀，自己因犹太身份被纳粹流放"
+      irony_note: "喂养了约40%的世界人口（约30–35亿），也主导了化学武器——妻子因此自杀，自己因犹太身份被纳粹流放"
 
     - id: carl_bosch
       name_zh: 卡尔·博施
@@ -130,13 +130,13 @@ compound:
 
   consequences:
     - id: feeds_four_billion
-      description_zh: 合成氨化肥养活了全球约一半人口（~40亿人）
-      description_en: Synthetic ammonia fertilizers feed roughly half the world's population (~4 billion)
+      description_zh: 合成氨化肥支撑约40%的世界人口的粮食供给（约30–35亿人，Smil 2001）
+      description_en: Synthetic ammonia fertilizers support ~40% of world population's food supply (~3-3.5 billion, Smil 2001)
       type: 正面
       domain: 农业
       scale: 全球
       ongoing: true
-      quantifier: "~40亿人"
+      quantifier: "~40%世界人口（约30–35亿）"
 
     - id: nitrogen_pollution_dead_zones
       description_zh: 过量氮肥流入水体造成全球400+个海洋死区

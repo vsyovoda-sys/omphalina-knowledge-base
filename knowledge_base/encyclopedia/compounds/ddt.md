@@ -15,7 +15,7 @@
 | **英文名** | DDT (Dichlorodiphenyltrichloroethane) |
 | **分子式** | (ClC₆H₄)₂CH(CCl₃) |
 | **CAS号** | 50-29-3 |
-| **首次合成** | 1874 (Othmar Zeidler) |
+| **首次合成** | 1874 (Othmar Zeidler, 论文发表年; 实验完成于 1873 年) |
 | **杀虫活性发现** | 1939 (Paul Hermann Müller) |
 | **诺贝尔奖** | 1948 生理学或医学奖 (Müller) |
 | **用途** | 杀虫剂, 抗疟疾 |
@@ -226,3 +226,36 @@ DDT resistant mosquitoes may be susceptible to pyrethroids in some countries. Ho
 
 
 == 參考資料 ==
+
+
+---
+
+## 补充资料 (Additional Sources — 2026-02-08 事实核查补充)
+
+> 来源：诺贝尔奖官网 Paul Hermann Müller 传记、WHO/UNEP、Rachel Carson 相关公开文献
+> 本节补充 Wikipedia 搬运未充分覆盖的关键事实
+
+### 诺贝尔奖传记关键细节
+
+- Paul Hermann Müller (1899.01.12 – 1965.10.12)，瑞士化学家，出生于 Olten（索洛图恩州），在 J.R. Geigy AG（巴塞尔）工作。
+- 诺贝尔官网传记明确写道 DDT "was originally made in 1873"（原始合成于 1873 年），但 Othmar Zeidler 的论文发表于 **1874 年**（Berichte der Deutschen Chemischen Gesellschaft 7:1180–1181）。两个年份均有学术依据。
+- Müller 于 1939 年发现 DDT 的杀虫特性（而非合成 DDT 本身），1948 年获诺贝尔生理学或医学奖——这是该奖极少数授予非医生/非生理学家的案例。
+- **来源**：nobelprize.org Paul Hermann Müller Biographical.
+
+### 全球 DDT 使用量数据
+
+- 1950–1980 年间，全球每年使用 DDT 约 **4 万吨**，累计生产约 **180 万吨**（1.8 million tonnes）。
+- 美国在 1959 年达到 DDT 使用峰值（约 36,000 吨/年），1972 年由 EPA 署长 William Ruckelshaus 签署禁令。
+- **来源**：UNEP Stockholm Convention documentation; EPA DDT Regulatory History.
+
+### 蕾切尔·卡森与《寂静的春天》补充
+
+- Rachel Carson 在写作《寂静的春天》（1962）期间已确诊乳腺癌，于 1964 年 4 月 14 日去世，享年 56 岁。她未能亲眼见到 DDT 禁令的实施（1972），但 1963 年她在美国总统科学顾问委员会（PSAC）听证会上作证，直接推动了后续的环境立法。
+- 化学工业界对卡森发起了有组织的攻击：Velsicol Chemical 试图阻止出版社出版此书；美国农业化学品制造商协会花费 $250,000 用于反宣传。
+- **来源**：Lear, L. (1997). *Rachel Carson: Witness for Nature*. Henry Holt; Griswold, E. (2012). "How 'Silent Spring' Ignited the Environmental Movement." NYT Magazine.
+
+### DDT 与疟疾的持续争议
+
+- 2006 年，WHO 重新推荐在疟疾流行地区进行室内残留喷洒（Indoor Residual Spraying, IRS）使用 DDT，认为益处大于风险——这与「全面禁止 DDT」的常见叙事存在张力。
+- 斯德哥尔摩公约（2004 年生效）将 DDT 列为持久性有机污染物（POPs），但明确豁免了公共卫生用途（疾病媒介控制）。
+- **来源**：WHO Position Statement on DDT (2006, revised 2011); Stockholm Convention Annex B.

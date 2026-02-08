@@ -1723,3 +1723,36 @@ CnH2n+2 + nH2O → nCO + (2n+1) H2
 
 
 == 參考 ==
+
+
+---
+
+## 补充资料 (Additional Sources — 2026-02-08 事实核查补充)
+
+> 来源：诺贝尔奖官网、Vaclav Smil 公开数据、IUPAC、WHO
+> 本节补充 Wikipedia 搬运未充分覆盖的关键事实
+
+### Vaclav Smil 的「40%」数据精确化
+
+- Vaclav Smil 在 *Enriching the Earth* (2001) 和后续著述中指出：哈伯-博施法生产的合成氮肥支撑了约 **40% 的世界人口**（即当时约 **30–35 亿人**）的粮食供给。这是一个比例估算，不应简单写为「40 亿人」。
+- 截至 2020 年代，全球约 **50%** 的食物蛋白质中的氮来自合成氨。
+- 全球每年合成氨产量约 **1.5 亿吨**（2022），其中约 80% 用于化肥生产。
+- **来源**：Smil, V. (2001). *Enriching the Earth*. MIT Press; Erisman et al. (2008). "How a century of ammonia synthesis changed the world." Nature Geoscience 1:636–639.
+
+### 伊普尔毒气攻击补充
+
+- 1915 年 4 月 22 日，德军在比利时伊普尔（Ypres）释放了约 **168 吨液氯**，形成约 6 公里宽的黄绿色毒气云。这次攻击直接造成约 **5,000 人死亡、10,000–15,000 人受伤**（含法国殖民地军队和加拿大士兵）。
+- Fritz Haber 作为「化学战之父」亲自到现场监督此次攻击。据多处史料记载，其妻 Clara Immerwahr（也是化学家，德国第一位获得化学博士学位的女性）在获知伊普尔攻击细节后，于 1915 年 5 月 2 日用 Haber 的军用手枪自杀。Haber 第二天即赴东线继续指挥化学战部署。
+- **来源**：Charles, D. (2005). *Master Mind: The Rise and Fall of Fritz Haber*. Ecco/HarperCollins; Hager, T. (2008). *The Alchemy of Air*. Crown.
+
+### Fritz Haber 诺贝尔奖争议
+
+- 1918 年诺贝尔化学奖授予 Fritz Haber，表彰其「从元素中合成氨」的贡献。该奖于 1919 年 11 月 13 日颁发（因一战延迟），引发巨大争议——多位协约国科学家拒绝出席颁奖典礼，认为不应奖励一位组织化学武器攻击的人。
+- Carl Bosch 于 1931 年获诺贝尔化学奖（与 Friedrich Bergius 分享），表彰其「发明和发展化学高压方法」。
+- **来源**：nobelprize.org Fritz Haber Facts; nobelprize.org Carl Bosch Facts.
+
+### 全球氮循环影响
+
+- 人类通过哈伯-博施法每年固定的氮（约 1.2 亿吨 N）已**超过**所有自然生物固氮的总和（约 1 亿吨 N/年），深刻改变了全球氮循环。
+- 过量氮排放导致水体富营养化（如墨西哥湾「死亡区」、太湖蓝藻）、土壤酸化、温室气体 N₂O 排放（全球变暖潜力是 CO₂ 的 298 倍）。
+- **来源**：Galloway et al. (2008). "Transformation of the Nitrogen Cycle." Science 320:889–892.

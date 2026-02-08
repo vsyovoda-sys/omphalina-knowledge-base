@@ -188,3 +188,32 @@ MSG在調味食品中的安全使用時間已經超過了109年。在這段期�
 
 Monosodium glutamate: Is it harmful?（页面存档备份，存于互联网档案馆）（Mayo Clinic）
 The Facts on Monosodium Glutamate (EUFIC)
+
+
+---
+
+## 补充资料 (Additional Sources — 2026-02-08 事实核查补充)
+
+> 来源：New England Journal of Medicine、FASEB、ACS
+> 本节补充 Wikipedia 搬运未充分覆盖的关键事实
+
+### 「中餐馆综合征」的起源（知识库重要缺漏）
+
+- **1968 年 4 月 4 日**，美籍华裔医生郭浩迈（Robert Ho Man Kwok）在 *New England Journal of Medicine*（NEJM）上发表了一封短信（Letter to the Editor），描述自己在美国中餐馆用餐后出现的一系列症状：「后颈麻木、全身无力、心悸」。
+- 这封仅数百字的短信引发了持续数十年的「中餐馆综合征」（Chinese Restaurant Syndrome, CRS）榁念。**NEJM 编辑部**为这个现象起了名，而非郭浩迈本人。
+- 2020 年，记者 Anna Googler 在调查中发现郭浩迈可能并非真实作者——有证据表明这封信可能是一封恶作剧或打赌的产物，但这一说法尚未实锡。
+- **FASEB 报告（1995）**结论：在空腹、无食物摄入的条件下，摄入大量 MSG（≥ 3g）可能引发短暂、轻微的症状，但正常用餐量（通常 0.5–1g/餐）**不会引发不良反应**。
+- **来源**：Kwok, R.H.M. (1968). "Chinese-Restaurant Syndrome." NEJM 278:796; FASEB (1995). *Analysis of Adverse Reactions to Monosodium Glutamate (MSG)*.
+
+### 种族偏见维度
+
+- 「中餐馆综合征」概念内含明显的种族歧视色彩：它暗示中国食品「不安全」，而同样大量使用谷氨酸钠的西方食品（薯片、即食汤、调味料）很少被质疑。
+- 2020 年，Merriam-Webster 词典将 "Chinese Restaurant Syndrome" 条目标注为「可能具有冒犯性」（potentially offensive）。
+- 日本味之素公司发起了 #RedefineCRS 活动，呼吁将「Chinese Restaurant Syndrome」改名。
+- **来源**：Blanding, M. (2019). "The Strange Case of Dr. Ho Man Kwok." Colgate Magazine; Sand, J. (2005). "A Short History of MSG." Gastronomica 5:38–49.
+
+### 池田菊苗的历史地位
+
+- 池田菊苗（1864–1936）于 1908 年在东京帝国大学实验室中，从海带汤中分离出谷氨酸（L-glutamic acid），并加以创造了「旨味」（umami）一词——此前西方科学仅承认四种基本味觉（甜、酸、苦、咸）。
+- 旨味作为第五种基本味觉直到 **2002 年**才获得国际科学界的正式承认（当年发现了口腔谷氨酸受体 mGluR4）——距池田的发现已过了 **94 年**。
+- **来源**：Lindemann, B. et al. (2002). "The Discovery of Umami." Chemical Senses 27:843–844; Ikeda, K. (1909, trans. 2002). "New Seasonings." Chemical Senses 27:847–849.

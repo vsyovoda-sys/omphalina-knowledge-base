@@ -13,7 +13,7 @@
 |------|-----|
 | **中文名** | 塑料 |
 | **英文名** | Plastic |
-| **首种全合成塑料** | 胶木/酚醛树脂 (Bakelite), 1907, Leo Baekeland |
+| **首种全合成塑料** | 胶木/酚醛树脂 (Bakelite), 1907 (专利申请) / 1909 (公开发布), Leo Baekeland |
 | **聚乙烯发现** | 1933, ICI 实验室 (意外发现) |
 | **2023年全球产量** | 超 4 亿吨 |
 | **用途** | 包装 (40%), 建筑 (20%), 汽车, 家具, 玩具 |
@@ -425,3 +425,38 @@ Polylactic acid（PLA）聚乳酸：
 （繁體中文）國立台灣大學　塑膠加工實驗室
 （繁體中文）財團法人塑膠工業技術發展中心（Plastics Industry Development Center） （页面存档备份，存于互联网档案馆）
 （繁體中文）（英文） 台灣區模具工業同業公會 （页面存档备份，存于互联网档案馆）
+
+
+---
+
+## 补充资料 (Additional Sources — 2026-02-08 事实核查补充)
+
+> 来源：ACS Chemical Landmarks、IUPAC、UNEP、Vaclav Smil 公开数据
+> 本节补充 Wikipedia 搬运未充分覆盖的关键事实
+
+### Hermann Staudinger 与高分子化学
+
+- Hermann Staudinger (1881–1965) 被誉为「高分子化学之父」。他于 1920 年代提出塑料等材料是由数千个小分子通过共价键连接而成的大分子的假说——这一理论当时遭到有机化学界主流的强烈反对，许多人认为塑料只是小分子的聊合体（「colloidal aggregates」）。
+- 1953 年，Staudinger 获诺贝尔化学奖——距他提出假说已过 **30 年**，类似于池田菊苗的旨味需 94 年才被承认。
+- **来源**：nobelprize.org Staudinger Nobel Prize; ACS Chemical Landmarks: Bakelite.
+
+### 全球塑料生产里程碑
+
+- **1950 年**：全球塑料年产量约 **200 万吨**。
+- **2000 年**：约 **2 亿吨**。
+- **2023 年**：约 **4 亿吨**（400 million tonnes）。
+- 人类自 1950 年以来累计生产了约 **83 亿吨**塑料，其中约 60% 已进入填埋场或自然环境，仅约 9% 被回收。
+- **来源**：Geyer et al. (2017). "Production, use, and fate of all plastics ever made." Science Advances 3:e1700782; OECD Global Plastics Outlook (2022).
+
+### Bakelite 的历史地位
+
+- Leo Hendrik Baekeland (1863–1944)，比利时裔美国化学家。他于 1907 年申请了酚醛树脂（Bakelite）专利，并于 1909 年在美国化学学会会议上正式公开。这是人类历史上第一种完全人工合成的塑料（不依赖任何天然原材料的分子结构）。
+- Bakelite 的诞生标志着从「橡胶时代」向「合成材料时代」的转变。
+- **来源**：ACS National Historic Chemical Landmarks: Bakelite (2014).
+
+### 塑料污染的当代影响
+
+- 2022 年 UNEP 报告：全球每年有约 **1100 万吨**塑料垃圾进入海洋，预计到 2040 年将翻倍。
+- 微塑料（microplastics）已在人类血液、胎盘、母乳中被检测到（Leslie et al., 2022, Environment International; Ragusa et al., 2021, Environment International）。
+- 2024 年，联合国环境规划署启动全球塑料条约谈判，旨在在 2025 年前完成具有法律约束力的国际塑料污染治理协议。
+- **来源**：UNEP (2022). *Turning off the Tap*; Leslie et al. (2022). Env. Int. 163:107199.

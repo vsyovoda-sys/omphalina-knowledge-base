@@ -425,3 +425,35 @@ USPSTF在2009年3月向45-79岁的男性和55-79岁的女性建议，如果阿�
 
 ## 參考資料
 
+
+---
+
+## 补充资料 (Additional Sources — 2026-02-08 事实核查补充)
+
+> 来源：诺贝尔奖官网、ACS National Historic Chemical Landmarks、WHO、Vaclav Smil 公开数据
+> 本节补充 Wikipedia 搬运未充分覆盖的关键事实
+
+### 发明者争议的补充细节
+
+- **Hoffmann vs. Eichengrün 争议**：根据拜耳实验室笔记本记录，Felix Hoffmann 于 1897 年 8 月 10 日合成了纯化的乙酰水杨酸，仅 11 天后（8 月 21 日）又在同一实验室合成了二乙酰吗啡（海洛因）。然而，2000 年苏格兰斯特拉斯克莱德大学的 Walter Sneader 在 BMJ 上发表研究，认为 Arthur Eichengrün 才是阿司匹林项目的真正推动者，Hoffmann 仅执行了实验操作。Eichengrün 在 1949 年发表的文章中首次提出这一异议，但由于他的犹太身份在纳粹时期被边缘化（曾被关押在特莱西恩施塔特集中营），其声称直到战后才引起关注。拜耳公司至今仍将阿司匹林发明归功于 Hoffmann。
+- **来源**：Sneader, W. (2000). "The discovery of aspirin: a reappraisal." BMJ 321:1591–1594; Eichengrün, A. (1949). "50 Jahre Aspirin." Pharmazie 4:582–584.
+
+### 瑞氏综合征时间线精确化
+
+- **1963 年**：澳大利亚病理学家 R. Douglas Reye 在 The Lancet 上首次描述该综合征（Reye, R.D. et al., 1963, Lancet 282:749–752），但此时**尚未建立**与阿司匹林的关联。
+- **1980 年**：美国 CDC 和多项流行病学研究首次建立阿司匹林与儿童瑞氏综合征之间的统计关联。
+- **1982 年**：美国外科医生总监发出警告，建议不要给患有水痘或流感的儿童使用阿司匹林。
+- **1986 年**：FDA 要求所有含阿司匹林产品标注瑞氏综合征警告标签。
+- **来源**：CDC MMWR 1980; U.S. Surgeon General Advisory 1982; FDA Final Rule 1986.
+
+### 全球消费量数据
+
+- 全球每年消费约 **4 万吨**（44,000 美吨）阿司匹林，折合约 **500–1200 亿片**（数据区间来自不同年份和来源的估算）。
+- 2023 年，阿司匹林是美国第 46 位最常处方的药物，超过 1400 万张处方。
+- **来源**：Wikipedia EN 条目引用; U.S. prescription data (ClinCalc 2023).
+
+### John Vane 诺贝尔奖
+
+- 1971 年，英国药理学家 John Robert Vane 发现阿司匹林通过抑制前列腺素合成酶（现称环氧合酶 COX）发挥作用。这一发现距阿司匹林首次上市（1899）已过了 **72 年**——人类使用了近四分之三个世纪才搞清楚这个药的作用机制。
+- Vane 于 1982 年获诺贝尔生理学或医学奖。
+- **来源**：Vane, J.R. (1971). "Inhibition of prostaglandin synthesis as a mechanism of action for aspirin-like drugs." Nature New Biology 231:232–235; Nobel Prize 1982.
